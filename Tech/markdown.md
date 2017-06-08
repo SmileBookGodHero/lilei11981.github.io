@@ -37,7 +37,7 @@ class SomeClass:
 $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 ### 表格
-<table border="1">
+<table>
   <tr>
     <th>Month</th>
     <th>Savings</th>
