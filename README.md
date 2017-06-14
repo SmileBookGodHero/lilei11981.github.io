@@ -34,9 +34,9 @@
 
 ## 最近看的电影
 
-**记忆大师**  主演：黄渤、徐静蕾、段奕宏、杨子姗
-**[摔跤吧！爸爸](http://blog.sina.com.cn/s/blog_76b0a9b60102xble.html)**  主演：阿米尔·汗 
-**[加勒比海盗](http://blog.sina.com.cn/s/blog_76b0a9b60102xcg6.html)** 主演：Johnny Depp、Keira Knightley、Orlando Bloom
+- **记忆大师**  主演：黄渤、徐静蕾、段奕宏、杨子姗
+- **[摔跤吧！爸爸](http://blog.sina.com.cn/s/blog_76b0a9b60102xble.html)**  主演：阿米尔·汗 
+- **[加勒比海盗](http://blog.sina.com.cn/s/blog_76b0a9b60102xcg6.html)** 主演：Johnny Depp、Keira Knightley、Orlando Bloom
 
 -----------------------------
 ## 我的社交网络
