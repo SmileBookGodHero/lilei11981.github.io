@@ -14,16 +14,7 @@
 
 > The problem of your past is your business, the problem of your future is my privilege.	—— [神探夏洛克](http://www.sherlock-holmes.co.uk/)
 
----------------------------
 
-## 证明我是码农
-``` java
-public class Demo{
-  public static void main(String[] args){
-    System.out.println("Hello World!")
-  }
-}
-```
 
 -----------
 
@@ -50,3 +41,11 @@ public class Demo{
 
 ---------------------------
 
+## 证明我是码农
+``` java
+public class Demo{
+  public static void main(String[] args){
+    System.out.println("Hello World!")
+  }
+}
+```
