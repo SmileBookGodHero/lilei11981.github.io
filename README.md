@@ -2,7 +2,7 @@
 
 ----------------------------------
 
-- **工作总结** ：作为一个码农，每天的主要工作就是码代码。
+- **工作总结** ：就职于[上海华瑞银行](https://www.shrbank.com/)信息科技部，供职于互联网金融业务总部[开放平台](https://open.hulubank.com.cn/)。
 - **生活日志** ：用[新浪博客](http://blog.sina.com.cn/lilei1998) 记录自己每天的生活。
 - **习惯爱好** ：乒乓球(已经废弃多年)；羽毛球(已经很久没打)；跑步(这个可以有)，貌似说的都是体育锻炼。
 
@@ -42,8 +42,8 @@
 ## 我的社交网络
 - 微博：[@李磊-SJTU](http://weibo.com/lingtiandipan)
 - Facebook: [个人主页](https://www.facebook.com/lilei11981)
-- Twitter:[@lilei1998](https://twitter.com/lilei1998)
-- 知乎：[李磊](https://www.zhihu.com/people/li-lei-10-26)
+- Twitter:[推特主页](https://twitter.com/lilei1998)
+- 知乎：[知乎主页](https://www.zhihu.com/people/li-lei-10-26)
 - 人人网：[我的主页](http://www.renren.com/357981768/profile)
 - 豆瓣：[豆瓣主页](https://www.douban.com/people/lilei1998/)
 - QQ邮箱：<1198189741@qq.com>
@@ -54,7 +54,7 @@
 ``` java
 public class Demo{
   public static void main(String[] args){
-    System.out.println("Hello World!")
+    System.out.println("Hello World!");
   }
 }
 ```
