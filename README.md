@@ -8,9 +8,9 @@
 
 -----------------------------
 
-## 喜欢的台词
+## 我喜欢的台词
 
-> The more you love, the weaker you are.     —— [冰与火之歌](http://asoiaf.huiji.wiki/wiki/)
+> Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.     —— [冰与火之歌](http://asoiaf.huiji.wiki/wiki/)
 
 > The problem of your past is your business, the problem of your future is my privilege.	—— [神探夏洛克](http://www.sherlock-holmes.co.uk/)
 
@@ -19,7 +19,7 @@
 -----------
 
 
-## 最近阅读
+## 最近阅读书籍
 
 * 《精进：如何成为一个很厉害的人》——采铜
 * 《必然》——凯文·凯利
@@ -29,8 +29,17 @@
 * 《蚂蚁金服》——由曦
 * 《刻意练习》——安德斯·艾力克森
 
+
+------------------------------
+
+## 最近看的电影
+
+**记忆大师**  主演：黄渤、徐静蕾、段奕宏、杨子姗
+**[摔跤吧！爸爸](http://blog.sina.com.cn/s/blog_76b0a9b60102xble.html)**  主演：阿米尔·汗 
+**[加勒比海盗](http://blog.sina.com.cn/s/blog_76b0a9b60102xcg6.html)** 主演：Johnny Depp、Keira Knightley、Orlando Bloom
+
 -----------------------------
-## 社交网络
+## 我的社交网络
 - 微博：[@李磊-SJTU](http://weibo.com/lingtiandipan)
 - Facebook: [个人主页](https://www.facebook.com/lilei11981)
 - Twitter:[@lilei1998](https://twitter.com/lilei1998)
