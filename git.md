@@ -1,6 +1,24 @@
 # 常用Git命令清单：
 
 ----
+## 常用命令组合
+
+----
+### 重置用户名
+- $ git config [--global] user.name "[name]"
+- $ git config [--global] user.email "[email address]"
+- $ git commit --amend--reset-author
+
+----
+### 提交代码常用
+- $ git add .
+- $ git commit -m "[message]"
+- $ git push origin master
+
+- > 如果有冲突则在使用push命令之前使用
+- $ git pull origin master
+
+----
 ## 新建代码库
 * 在当前目录新建一个Git代码库
 - $ git init
