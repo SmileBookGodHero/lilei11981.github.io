@@ -3,16 +3,18 @@
 ----------------------------------
 
 - **工作总结** ：就职于[上海华瑞银行](https://www.shrbank.com/)信息科技部，供职于互联网金融业务总部[开放平台](https://open.hulubank.com.cn/)。
-- **生活日志** ：用[新浪博客](http://blog.sina.com.cn/lilei1998) 记录自己每天的生活。
+- **生活日志** ：用[新浪博客](http://blog.sina.com.cn/lilei1998)记录自己每天的生活。
 - **习惯爱好** ：乒乓球(已经废弃多年)；羽毛球(已经很久没打)；跑步(这个可以有)，貌似说的都是体育锻炼。
 
 -----------------------------
 
 ## 我喜欢的台词
 
-> Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.     —— [冰与火之歌](http://asoiaf.huiji.wiki/wiki/)
+> Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.     
+—— [冰与火之歌](http://asoiaf.huiji.wiki/wiki/)
 
-> The problem of your past is your business, the problem of your future is my privilege.	—— [神探夏洛克](http://www.sherlock-holmes.co.uk/)
+> The problem of your past is your business, the problem of your future is my privilege.	
+—— [神探夏洛克](http://www.sherlock-holmes.co.uk/)
 
 
 
