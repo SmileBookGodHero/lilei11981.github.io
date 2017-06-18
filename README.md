@@ -43,11 +43,11 @@
 -----------------------------
 ## 我的社交网络
 - 微博：[@李磊-SJTU](http://weibo.com/lingtiandipan)
-- Facebook: [个人主页](https://www.facebook.com/lilei11981)
-- Twitter:[推特主页](https://twitter.com/lilei1998)
+- 豆瓣：[豆瓣主页](https://www.douban.com/people/lilei1998/)
 - 知乎：[知乎主页](https://www.zhihu.com/people/li-lei-10-26)
 - 人人网：[我的主页](http://www.renren.com/357981768/profile)
-- 豆瓣：[豆瓣主页](https://www.douban.com/people/lilei1998/)
+- Twitter：[推特主页](https://twitter.com/lilei1998)
+- Facebook：[个人主页](https://www.facebook.com/lilei11981)
 - QQ邮箱：<1198189741@qq.com>
 
 ---------------------------
