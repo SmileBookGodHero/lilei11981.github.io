@@ -42,7 +42,7 @@
 - **记忆大师**  主演：黄渤、徐静蕾、段奕宏、杨子姗
 - **[摔跤吧！爸爸](http://blog.sina.com.cn/s/blog_76b0a9b60102xble.html)**  主演：阿米尔·汗 
 - **[加勒比海盗](http://blog.sina.com.cn/s/blog_76b0a9b60102xcg6.html)** 主演：Johnny Depp、Keira Knightley、Orlando Bloom
-- **变形金刚** 主演：擎天柱，大黄蜂
+- **变形金刚** （准备去看，有约的吗）主演：擎天柱，大黄蜂
 
 -----------------------------
 ## 我的社交网络
