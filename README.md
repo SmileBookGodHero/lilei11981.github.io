@@ -12,8 +12,8 @@
 
 > Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.  <br>
 > —— [权力的游戏(Game of Thrones, GOT)](http://asoiaf.huiji.wiki/wiki/)<br>
-> —— [GOT人物关系图](Character_Tree.jpg)（3.75MB，图片较大，建议用电脑端打开）<br>
-> —— [GOT维斯特洛大陆地图](Map_of_Westeros.jpg)（3.11MB，图片较大，建议用电脑端打开）
+> —— [GOT人物关系图](Character_Tree.jpg)（3.75MB，图片较大，建议在电脑端打开）<br>
+> —— [GOT维斯特洛大陆地图](Map_of_Westeros.jpg)（3.11MB，图片较大，建议在电脑端打开）
 
 
 > The problem of your past is your business, the problem of your future is my privilege.<br>
@@ -46,7 +46,7 @@
 - **记忆大师**  主演：黄渤、徐静蕾、段奕宏、杨子姗
 - **[摔跤吧！爸爸](http://blog.sina.com.cn/s/blog_76b0a9b60102xble.html)**  主演：阿米尔·汗 
 - **[加勒比海盗](http://blog.sina.com.cn/s/blog_76b0a9b60102xcg6.html)** 主演：Johnny Depp、Keira Knightley、Orlando Bloom
-- **变形金刚** （准备去看，有约的吗）主演：擎天柱，大黄蜂
+- **变形金刚** 主演：擎天柱，大黄蜂
 
 -----------------------------
 ## 我的社交网络
