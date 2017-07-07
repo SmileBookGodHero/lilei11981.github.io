@@ -4,22 +4,21 @@
 - **个人简介** ：身份证上出生日期为1998年6月13日，实际出生日期为1988年9月25日，农历八月初十。
 - **工作总结** ：隶属于[上海华瑞银行](https://www.shrbank.com/)信息科技部软件中心，供职于互联网金融业务总部[开放平台](https://open.hulubank.com.cn/)。
 - **生活日志** ：书评、影评以后将转移到[豆瓣](https://www.douban.com/people/lilei1998/)平台。
-- **习惯爱好** ：乒乓球、羽毛球、跑步、钢琴……
+- **习惯爱好** ：乒乓球、羽毛球、跑步、推理……
 
 -----------------------------
 
 ## 我喜欢的台词
 
 > Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.  <br>
->
 > Kill the boy and let the man be born.<br>
->
 > —— [权力的游戏(Game of Thrones, GOT)](http://asoiaf.huiji.wiki/wiki/)<br>
 > —— [GOT人物关系图](Character_Tree.jpg)（3.75MB，图片较大，建议在电脑端打开）<br>
 > —— [GOT维斯特洛大陆地图](Map_of_Westeros.jpg)（3.11MB，图片较大，建议在电脑端打开）
 
 
 > The problem of your past is your business, the problem of your future is my privilege.<br>
+> Once you've ruled out the impossible, whatever remains, however improbable, must be true. <br>
 > —— [神探夏洛克](http://www.sherlock-holmes.co.uk/)
 
 
