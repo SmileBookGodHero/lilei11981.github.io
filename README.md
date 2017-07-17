@@ -18,24 +18,19 @@
 
 ## 权力的游戏四大家族
 
-Stark家族，Jon Snow成为新一任北境之王，Sansa在小指头的培养下成为谋略家，Arya在黑白之院被训练为一位顶尖刺客，Bran则拥有三眼乌鸦的绿先知技能。Lannister家族，Cercei坐上了铁王座，Jaime掌握军队，坐拥君临城，Tyrion则成为了龙女的首相。Targaryen家族，Daenerys亲率大军降临Westeros大陆，另外一位还什么都不知道。Baratheon家族，还剩下Gendry，不过已经有三季都没看到他人了。总的来说，人数比例：3.5:2.5:1.5:0.5
-
+Stark家族，Jon Snow成为新一任北境之王，Sansa在小指头的培养下成为谋略家，Arya在黑白之院被训练为一位顶尖刺客，Bran则拥有三眼乌鸦的绿先知技能。Lannister家族，Cercei坐上了铁王座，Jaime掌握军队，坐拥君临城，Tyrion则成为了龙女的首相。Targaryen家族，Daenerys亲率大军降临Westeros大陆，另外一位还什么都不知道。Baratheon家族，还剩下Gendry，不过已经有三季都没看到他人了。总的来说，人数比例：3.5:2.5:1.5:0.5。不要问我为啥四大家族加起来都不超过10个人，要问导演和编剧，以及原著作者。
 
 ------------------------------
 
-## 权力的游戏权谋排行榜
-* 泰温兰尼斯特
-* 提里昂兰尼斯特
-* 小指头
-* 瓦里斯
-* 荆棘女王
-* 
+## 权力的游戏人物分析
+* ​
 
 -----------------------------
 ## 资料来源
-- [权力的游戏(Game of Thrones, GOT)](http://asoiaf.huiji.wiki/wiki/)<br>
-- [维基百科](http://asoiaf.huiji.wiki/wiki/)<br>
-- [知乎](https://www.zhihu.com/people/li-lei-10-26)
+- [权力的游戏中文维基](http://asoiaf.huiji.wiki/wiki/)<br>
+- [维基百科词条](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)<br>
+- [知乎](https://www.zhihu.com/question/62534414)
+- [知乎](https://www.zhihu.com/topic/19571876)
 
 ---------------------------
 
