@@ -23,40 +23,40 @@
 
 - **家族介绍**      *A Brief Introduction of  Houses*
 
-  >  **史塔克家族**         *House Stark*
+  > **史塔克家族**         *House Stark*
   >
-  >  **兰尼斯特家族**       *House Lannister*
+  > **兰尼斯特家族**       *House Lannister*
   >
-  >  **拜拉席恩家族**       *House Baratheon*
+  > **拜拉席恩家族**       *House Baratheon*
   >
-  >  **坦格利安家族**       *House Targaryen*
+  > **坦格利安家族**       *House Targaryen*
   >
-  >  **徒利家族**               *House Tully*
+  > **徒利家族**               *House Tully*
   >
-  >  **艾林家族**               *House Arryn*
+  > **艾林家族**               *House Arryn*
   >
-  >  **提利尔家族**           *House Tyrell*
+  > **提利尔家族**           *House Tyrell*
   >
-  >  **马泰尔家族**           *House Martell*
+  > **马泰尔家族**           *House Martell*
   >
-  >  **葛雷乔伊家族**       *House Greyjoy*
+  > **葛雷乔伊家族**       *House Greyjoy*
 *   [GOT人物关系图](Character_Tree.jpg)（3.75MB，图片较大，建议在电脑端打开）<br>
 
 *   **七大王国**      **Seven Kingdoms**
 
-    >  **北境**          *The North*
+    > **北境**          *The North*
     >
-    >  **谷地**          *Vale*
+    > **谷地**          *Vale*
     >
-    >  **铁群岛**       *Iron Islands*
+    > **铁群岛**       *Iron Islands*
     >
-    >  **西境**          *Westerlands*
+    > **西境**          *Westerlands*
     >
-    >  **河湾地**      *Reach*
+    > **河湾地**      *Reach*
     >
-    >  **风暴地**      *Stormlands*
+    > **风暴地**      *Stormlands*
     >
-    >  **多恩**          *Dorne*
+    > **多恩**          *Dorne*
 
 * [GOT维斯特洛大陆地图](Map_of_Westeros.jpg)（3.11MB，图片较大，建议在电脑端打开）
 
