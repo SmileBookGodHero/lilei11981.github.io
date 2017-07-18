@@ -17,7 +17,7 @@
   >
   > **魔龙的狂舞**     *A Dance with Dragons*
   >
-  > **凛冬的寒风 **    *The Winds of Winter*
+  > **凛冬的寒风**    *The Winds of Winter*
   >
   > **春晓的梦想**     *A Dream of Spring*
 
