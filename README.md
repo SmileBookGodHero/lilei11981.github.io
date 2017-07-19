@@ -82,51 +82,39 @@
 
 * Stark家族
 
-  > 家徽：皑皑白雪大地上的灰色冰原狼
-  > 族语：“凛冬将至”（Winter is Coming）
-  > 封邑：临冬城（Winterfell）
-  > 领地：北境（The North）
-  >
-  > Jon Snow：成为新一任北境之王
-  >
-  > Sansa：在小指头的培养下成为谋略家
-  >
-  > Arya：在黑白之院被训练为一位顶尖刺客
-  >
+  > 家徽：皑皑白雪大地上的灰色冰原狼<br>
+  > 族语：“凛冬将至”（Winter is Coming）<br>
+  > 封邑：临冬城（Winterfell）<br>
+  > 领地：北境（The North）<br>
+  > Jon Snow：成为新一任北境之王<br>
+  > Sansa：在小指头的培养下成为谋略家<br>
+  > Arya：在黑白之院被训练为一位顶尖刺客<br>
   > Bran：则拥有三眼乌鸦的绿先知技能
 
 * Lannister家族
 
-  > 家徽：鲜红地上的金色咆吼猛狮
-  >
-  > 族语：“听我怒吼”（Hear Me Roar）
-  >
-  > 封邑：凯岩城（Casterly Rock）
-  >
-  > 领地：西境（Westerlands）
-  >
-  > Cerce：坐上了铁王座，
-  >
-  > Jaime掌握军队，坐拥君临城
-  >
-  > Tyrion则成为了龙女的首相
+  > 家徽：鲜红地上的金色咆吼猛狮<br>
+  > 族语：“听我怒吼”（Hear Me Roar）<br>
+  > 封邑：凯岩城（Casterly Rock）<br>
+  > 领地：西境（Westerlands）<br>
+  > Cerce：坐上了铁王座<br>
+  > Jaime：掌握军队，坐拥君临城<br>
+  > Tyrion：则成为了龙女的首相
 
 * Targaryen家族
 
-  > 家徽：黑底红色的三头火龙
-  > 族语：“血火同源”（Fire and Blood）
-  > 封邑：君临城（King's Landing）
-  > 领地：王领地（Crownlands）
-  >
-  > Daenerys亲率大军降临维斯特洛大陆，另外一位还什么都不知道。
+  > 家徽：黑底红色的三头火龙<br>
+  > 族语：“血火同源”（Fire and Blood）<br>
+  > 封邑：君临城（King's Landing）<br>
+  > 领地：王领地（Crownlands）<br>
+  > Daenerys：亲率大军降临维斯特洛大陆，另外一位还什么都不知道。
 
 * Baratheon家族
 
-  > 家徽：金色原野上的一头黑色宝冠雄鹿
-  > 族语：“怒火燎原”（Ours is the Fury）
-  > 封邑：风息堡（Storm's End）
-  > 领地：风暴地（Stormlands）
-  >
+  > 家徽：金色原野上的一头黑色宝冠雄鹿<br>
+  > 族语：“怒火燎原”（Ours is the Fury）<br>
+  > 封邑：风息堡（Storm's End）<br>
+  > 领地：风暴地（Stormlands）<br>
   > 还剩下Gendry，不过已经有三季都没看到他人了。
 
 * 总的来说，人数比例：4:3:2:1，不要问我为啥四大家族加起来都不超过10个人。
