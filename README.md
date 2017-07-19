@@ -66,17 +66,70 @@
 
 > Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.  <br>
 >
+> ——守夜人誓词
+>
 > Kill the boy and let the man be born.<br>
+>
+> ——Jon Snow寻求伊蒙学士的意见时，得到的回答。伊蒙学士是少有的高寿的贵族，守夜人的学士，普遍受人尊重，在教导Jon成才的道路上也是不遗余力。
+>
+> Power resides where men believe it resides. It's a trick, a shadow on the wall. And a very small man can cast a very large shadow.<br>
+>
+> ——这是Varys对于权力的游戏的解读，和小指头不同，Varys是权力的游戏中一位有情怀的人，同样是靠奋斗而身居朝内要职，但却始终心系天下苍生。
 
 -----------
 
 ## 四大家族
 
-* Stark家族，Jon Snow成为新一任北境之王，Sansa在小指头的培养下成为谋略家，Arya在黑白之院被训练为一位顶尖刺客，Bran则拥有三眼乌鸦的绿先知技能。
-* Lannister家族，Cercei坐上了铁王座，Jaime掌握军队，坐拥君临城，Tyrion则成为了龙女的首相。
-* Targaryen家族，Daenerys亲率大军降临维斯特洛大陆，另外一位还什么都不知道。
-* Baratheon家族，还剩下Gendry，不过已经有三季都没看到他人了。
-* 总的来说，人数比例：3.5:2.5:1.5:0.5，不要问我为啥四大家族加起来都不超过10个人。
+* Stark家族
+
+  > 家徽：皑皑白雪大地上的灰色冰原狼
+  > 族语：“凛冬将至”（Winter is Coming）
+  > 封邑：临冬城（Winterfell）
+  > 领地：北境（The North）
+  >
+  > Jon Snow：成为新一任北境之王
+  >
+  > Sansa：在小指头的培养下成为谋略家
+  >
+  > Arya：在黑白之院被训练为一位顶尖刺客
+  >
+  > Bran：则拥有三眼乌鸦的绿先知技能
+
+* Lannister家族
+
+  > 家徽：鲜红地上的金色咆吼猛狮
+  >
+  > 族语：“听我怒吼”（Hear Me Roar）
+  >
+  > 封邑：凯岩城（Casterly Rock）
+  >
+  > 领地：西境（Westerlands）
+  >
+  > Cerce：坐上了铁王座，
+  >
+  > Jaime掌握军队，坐拥君临城
+  >
+  > Tyrion则成为了龙女的首相
+
+* Targaryen家族
+
+  > 家徽：黑底红色的三头火龙
+  > 族语：“血火同源”（Fire and Blood）
+  > 封邑：君临城（King's Landing）
+  > 领地：王领地（Crownlands）
+  >
+  > Daenerys亲率大军降临维斯特洛大陆，另外一位还什么都不知道。
+
+* Baratheon家族
+
+  > 家徽：金色原野上的一头黑色宝冠雄鹿
+  > 族语：“怒火燎原”（Ours is the Fury）
+  > 封邑：风息堡（Storm's End）
+  > 领地：风暴地（Stormlands）
+  >
+  > 还剩下Gendry，不过已经有三季都没看到他人了。
+
+* 总的来说，人数比例：4:3:2:1，不要问我为啥四大家族加起来都不超过10个人。
 
 ------------------------------
 
