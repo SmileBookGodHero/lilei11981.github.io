@@ -1,132 +1,88 @@
-#  Game of Thrones
+#  The Game is On
 
 ----------------------------------
-- **权力的游戏**       *Game of Thrones*
-
-  > 一部中世纪史诗奇幻题材的HBO剧，以乔治·R·R·马丁的《冰与火之歌》系列作为基础改编创作。
-
-- **冰与火之歌**        *A Song of Ice and Fire*
-
-  > **权力的游戏**     *A Game of Thrones*
-  >
-  > **列王的纷争**     *A Clash of Kings*
-  >
-  > **冰雨的风暴**      *A Storm of Swords*
-  >
-  > **群鸦的盛宴**     *A Feast for Crows*
-  >
-  > **魔龙的狂舞**     *A Dance with Dragons*
-  >
-  > **凛冬的寒风**    *The Winds of Winter*
-  >
-  > **春晓的梦想**     *A Dream of Spring*
-
-- **家族介绍**      *A Brief Introduction of  Houses*
-
-  > **史塔克家族**         *House Stark*
-  >
-  > **兰尼斯特家族**       *House Lannister*
-  >
-  > **拜拉席恩家族**       *House Baratheon*
-  >
-  > **坦格利安家族**       *House Targaryen*
-  >
-  > **徒利家族**               *House Tully*
-  >
-  > **艾林家族**               *House Arryn*
-  >
-  > **提利尔家族**           *House Tyrell*
-  >
-  > **马泰尔家族**           *House Martell*
-  >
-  > **葛雷乔伊家族**       *House Greyjoy*
-*   [GOT人物关系图](Character_Tree.jpg)（3.75MB，图片较大，建议在电脑端打开）<br>
-
-*   **七大王国**      **Seven Kingdoms**
-
-    > **北境**          *The North*
-    >
-    > **谷地**          *Vale*
-    >
-    > **铁群岛**       *Iron Islands*
-    >
-    > **西境**          *Westerlands*
-    >
-    > **河湾地**      *Reach*
-    >
-    > **风暴地**      *Stormlands*
-    >
-    > **多恩**          *Dorne*
-
-* [GOT维斯特洛大陆地图](Map_of_Westeros.jpg)（3.11MB，图片较大，建议在电脑端打开）
+- **个人简介** ：身份证上出生日期为1998年6月13日，实际出生日期为1988年9月25日，农历八月初十。
+- **工作总结** ：隶属于[上海华瑞银行](https://www.shrbank.com/)信息科技部软件中心，供职于互联网金融业务总部[开放平台](https://open.hulubank.com.cn/)。
+- **生活日志** ：书评、影评以后将转移到[豆瓣](https://www.douban.com/people/lilei1998/)平台。
+- **习惯爱好** ：乒乓球、羽毛球、跑步、推理……
 
 -----------------------------
 
-## 经典语录
+## 我喜欢的台词
 
 > Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.  <br>
 >
-> ——守夜人誓词
->
 > Kill the boy and let the man be born.<br>
 >
-> ——Jon Snow寻求伊蒙学士的意见时，得到的回答。伊蒙学士是少有的高寿的贵族，守夜人的学士，普遍受人尊重，在教导Jon成才的道路上也是不遗余力。
+> —— [权力的游戏(Game of Thrones, GOT)](Game_of_Thrones.md)<br>
+> —— [GOT人物关系图](Character_Tree.jpg)（3.75MB，图片较大，建议在电脑端打开）<br>
+> —— [GOT维斯特洛大陆地图](Map_of_Westeros.jpg)（3.11MB，图片较大，建议在电脑端打开）
+
+
+> The problem of your past is your business, the problem of your future is my privilege.<br>
 >
-> Power resides where men believe it resides. It's a trick, a shadow on the wall. And a very small man can cast a very large shadow.<br>
+> Once you've ruled out the impossible, whatever remains, however improbable, must be true. <br>
 >
-> ——这是Varys对于权力的游戏的解读，和小指头不同，Varys是权力的游戏中一位有情怀的人，同样是靠奋斗而身居朝内要职，但却始终心系天下苍生。
+> —— [神探夏洛克](http://www.sherlock-holmes.co.uk/)
+
+
 
 -----------
 
-## 四大家族
 
-* Stark家族
+## 最近阅读书籍
 
-  > 家徽：皑皑白雪大地上的灰色冰原狼<br>
-  > 族语：“凛冬将至”（Winter is Coming）<br>
-  > 封邑：临冬城（Winterfell）<br>
-  > 领地：北境（The North）<br>
-  > Jon Snow：成为新一任北境之王<br>
-  > Sansa：在小指头的培养下成为谋略家<br>
-  > Arya：在黑白之院被训练为一位顶尖刺客<br>
-  > Bran：则拥有三眼乌鸦的绿先知技能
+* 《精进：如何成为一个很厉害的人》——采铜
+* 《必然》——凯文·凯利
+* 《当我谈跑步时我谈些什么》——村上春树
+* 《ABC谋杀案》——阿加莎·克里斯蒂
+* 《无声告白》——伍绮诗
+* 《蚂蚁金服》——由曦
+* 《刻意练习》——安德斯·艾力克森
+* 《Head First Java》——Kathy Sierra,Bert Bates 著
+* 《Java 核心技术》——凯 S.霍斯特曼
+* 《程序员的数学思维修炼》——周颖
+* 《费马大定理》——西蒙·辛格
+* 《冰与火之歌 [卷一]权力的游戏 上》——乔治R·R·马丁
+* 《冰与火之歌 [卷一]权力的游戏 中》——乔治R·R·马丁
+* 《极简欧洲史》——约翰•赫斯特
+* 《人类简史》——尤瓦尔·赫拉利
+* 《洛丽塔》——弗拉基米尔·纳博科夫
+* 《光荣与梦想》——威廉·曼彻斯特
 
-* Lannister家族
 
-  > 家徽：鲜红地上的金色咆吼猛狮<br>
-  > 族语：“听我怒吼”（Hear Me Roar）<br>
-  > 封邑：凯岩城（Casterly Rock）<br>
-  > 领地：西境（Westerlands）<br>
-  > Cercei：坐上了铁王座<br>
-  > Jaime：掌握军队，坐拥君临城<br>
-  > Tyrion：则成为了龙女的首相
+------------------------------
 
-* Targaryen家族
+## 最近看的电影
 
-  > 家徽：黑底红色的三头火龙<br>
-  > 族语：“血火同源”（Fire and Blood）<br>
-  > 封邑：君临城（King's Landing）<br>
-  > 领地：王领地（Crownlands）<br>
-  > Daenerys：亲率大军降临维斯特洛大陆，另外一位还什么都不知道。
+- **记忆大师**  主演：黄渤、徐静蕾、段奕宏、杨子姗
+- **摔跤吧！爸爸**  主演：阿米尔·汗 
+- **加勒比海盗**  主演：Johnny Depp、Keira Knightley、Orlando Bloom
+- **变形金刚** 主演：擎天柱，大黄蜂
+- **海上钢琴师**  主演：蒂姆·罗斯
+- **战狼** 主演：吴京、余男、倪大红、斯科特·阿金斯
+- **战狼2**  主演：吴京、弗兰克·格里罗、吴刚、张翰、卢靖姗
+- **三生三世 十里桃花**  主演：刘亦菲、杨洋
+- **天堂电影院**  主演：菲利浦·诺瓦雷、萨瓦特利·卡西欧
+- **美女与野兽**  主演：Emma Watson、丹·史蒂文斯
+- **禁闭岛**  主演：莱昂纳多·迪卡普里奥
 
-* Baratheon家族
+-----------------------------
+## 我的社交网络
+- 微博：[@李磊-SJTU](http://weibo.com/lingtiandipan)
+- 豆瓣：[豆瓣主页](https://www.douban.com/people/lilei1998/)
+- 知乎：[知乎主页](https://www.zhihu.com/people/li-lei-10-26)
+- 人人网：[我的主页](http://www.renren.com/357981768/profile)
+- Twitter：[推特主页](https://twitter.com/lilei1998)
+- Facebook：[个人主页](https://www.facebook.com/lilei11981)
 
-  > 家徽：金色原野上的一头黑色宝冠雄鹿<br>
-  > 族语：“怒火燎原”（Ours is the Fury）<br>
-  > 封邑：风息堡（Storm's End）<br>
-  > 领地：风暴地（Stormlands）<br>
-  > 还剩下Gendry，不过已经有三季都没看到他人了。
+---------------------------
 
-* 总的来说，人数比例：4:3:2:1，不要问我为啥四大家族加起来都不超过10个人。
-
--------
-
-## 细思极恐
-
-[Surprise](Surprise.md)
-
----------------------------------
-
-## 剧情预测
-* Sansa : 在君临城，Tyrion曾说三傻要比他活的更久，那就认为Sansa不会死。上面说过，Sansa是要成为谋略家，要成为Jon的得力助手的，但从这一集来看，两者的矛盾不断升级。Sansa说，知道小指头要的是什么，小指头想要的是背景，想要铁王座，想要Sansa和Jon产生矛盾。既然知道，为什么还要这么做，很可能的原因就是欺骗，从第一季开始，小指头就告诉Sansa，君临城的人都是骗子，而Sansa若想得到真传，那就要骗的过观众，骗得过小指头，那才叫真正的谋略家。
-* Arya : 据传闻，这个角色是原著作者夫人定下的，所以也不会死。从一开始，Arya就显得与众不同，当然Arya这条剧情线也是特别重要的，在君临城认识了Bravos的剑客Syrio，然后目睹了自己父亲被杀，在逃离君临的路上，认识了Gendry，这个人物像是划船划丢了，然后遇到了无面者贾昆·赫加尔，不知道这么厉害的人为什么会成为囚犯，和泰温兰尼斯特的对白也是十分的精彩，然后就是无旗兄弟会和桑铎·克里冈，到The Twins时看到自己哥哥和母亲被杀，到Eyrie听到自己姨妈也死了。本想去找Jon，但觉得Bravos也是个好去处，在黑白之院，练就了一身本领，还看了一场话剧表演，并成为了顶尖杀手，把Frey家族团灭。和Sansa相比，Arya才是见过大风大浪的人。按照剧情走向，Arya自己都说了I'm going to kill the queen.然后去君临把Cersei杀了？剧情居然不会这么简单，她会遇到从第一季就消失不见的冰原狼，也许还会遇到Gendry。
+## 证明我是码农
+``` java
+public class Demo{
+  public static void main(String[] args){
+    System.out.println("Hello World!");
+  }
+}
+```
