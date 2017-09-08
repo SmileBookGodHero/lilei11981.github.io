@@ -15,8 +15,6 @@
 > Kill the boy and let the man be born.<br>
 >
 > —— [权力的游戏(Game of Thrones, GOT)](Game_of_Thrones.md)<br>
-> —— [GOT人物关系图](Character_Tree.jpg)（3.75MB，图片较大，建议在电脑端打开）<br>
-> —— [GOT维斯特洛大陆地图](Map_of_Westeros.jpg)（3.11MB，图片较大，建议在电脑端打开）
 
 
 > The problem of your past is your business, the problem of your future is my privilege.<br>
