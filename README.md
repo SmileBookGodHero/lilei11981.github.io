@@ -21,7 +21,7 @@
 >
 > Once you've ruled out the impossible, whatever remains, however improbable, must be true. <br>
 >
-> —— [神探夏洛克](http://www.sherlock-holmes.co.uk/)
+> —— [神探夏洛克](Deduction/Sherlock.md)
 
 
 
