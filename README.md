@@ -17,7 +17,7 @@
 > —— [权力的游戏(Game of Thrones, GOT)](Game_of_Thrones.md)<br>
 
 
-> The problem of your past is your business, the problem of your future is my privilege.<br>
+> The problems of your past are your business, the problems of your future are my privilege.<br>
 >
 > Once you've ruled out the impossible, whatever remains, however improbable, must be true. <br>
 >
