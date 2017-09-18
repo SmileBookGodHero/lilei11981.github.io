@@ -37,7 +37,7 @@
 * 《无声告白》——伍绮诗
 * 《蚂蚁金服》——由曦
 * 《刻意练习》——安德斯·艾力克森
-* 《Head First Java》——Kathy Sierra,Bert Bates 著
+* 《Head First Java》——Kathy Sierra, Bert Bates 著
 * 《Java 核心技术》——凯 S.霍斯特曼
 * 《程序员的数学思维修炼》——周颖
 * 《费马大定理》——西蒙·辛格
@@ -47,6 +47,8 @@
 * 《人类简史》——尤瓦尔·赫拉利
 * 《洛丽塔》——弗拉基米尔·纳博科夫
 * 《光荣与梦想》——威廉·曼彻斯特
+* 《算法》——Robert Sedgewick, Kevin Wayne 著
+* 《lonely planet 系列：日本》——Benedict Walker等
 
 
 ------------------------------
