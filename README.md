@@ -49,6 +49,7 @@
 * 《光荣与梦想》——威廉·曼彻斯特
 * 《算法》——Robert Sedgewick, Kevin Wayne 著
 * 《lonely planet 系列：日本》——Benedict Walker等
+* 《就喜欢你看不惯我又干不掉我的样子2》——白茶 绘著
 
 
 ------------------------------
