@@ -14,8 +14,8 @@
 - $ git add .
 - $ git commit -m "[message]"
 - $ git push origin master
+> 如果有冲突则在使用push命令之前使用
 
-- > 如果有冲突则在使用push命令之前使用
 - $ git pull origin master
 
 ----
@@ -133,7 +133,7 @@
 - $ git branch -d [branch-name]
 
 * 删除远程分支
-- $ git push origin ---delete [branch-name]
+- $ git push origin --delete [branch-name]
 - $ git branch -dr [remote/branch]
 
 ----
