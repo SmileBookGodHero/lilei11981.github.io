@@ -1,5 +1,9 @@
 ## Linux 命令行
 
+-----
+### Mac 常用指令
+* *sudo killall -HUP mDNSResponder* 清除DNS缓存
+
 ------
 ### 常用指令
 
