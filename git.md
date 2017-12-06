@@ -9,17 +9,29 @@
 - $ git config [--global] user.email "[email address]"
 - $ git commit --amend--reset-author
 
+-------
+### 把别人的项目加入到自己的项目中
+- $ 在 github 上新建一个 "HelloWorld" 仓库
+- $ git clone + 别人项目的链接
+- $ git remote -v  (查看项目关联)
+- $ git remote remove origin （删除别人 origin 的链接）
+- $ rm -rf .git（删除 HelloWorld 文件里的. git 文件）
+- $ git init （初始化 .git 文件）
+- $ git remote add origin + 自己仓库的地址（在 .git 中增加自己的 origin 的链接）
+- $ git pull origin master（与自己的项目同步）
+
 ----
 ### 提交代码常用
-- $ git add .
-- $ git commit -m "[message]"
-- $ git push origin master
+- $ git status     (查看当前文件的修改状态)
+- $ git add .     (添加所有修改文件)
+- $ git commit -m "[message]"    (提交文件并注释)
+- $ git push origin master     (把暂存区的文件推送到远程)
 > 如果有冲突则在使用push命令之前使用
 
 - $ git pull origin master
 
 ----
-## 新建代码库
+### 新建代码库
 * 在当前目录新建一个Git代码库
 - $ git init
 
