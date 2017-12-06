@@ -4,6 +4,20 @@
 ### Mac 常用指令
 * *sudo killall -HUP mDNSResponder* 清除DNS缓存
 
+-----
+### Homebrew常用指令
+* *```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```* 安装Homebrew
+* *brew list* 列出已安装的软件列表
+* *brew info git* 显示软件内容信息
+* *brew deps git* 显示包依赖
+* *brew search git*  搜索软件，在安装之前查询是否有这个软件
+* *brew install git*  安装软件
+* *brew update* 更新软件，把所有的Formula目录更新，并且会对本机已经安装并有更新的软件用*标明
+* *brew outdated* 查看哪些已安装的软件需要更新
+* *brew upgrade git*  更新某具体软件
+* *brew uninstall git*  卸载软件
+* *brew cleanup* 清理不需要的版本和安装包缓存
+
 ------
 ### 常用指令
 
