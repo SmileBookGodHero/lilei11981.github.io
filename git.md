@@ -9,6 +9,10 @@
 - $ git config [--global] user.email "[email address]"
 - $ git commit --amend--reset-author
 
+-----
+### 本地创建远程仓库
+- $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}
+
 -------
 ### 把别人的项目加入到自己的项目中
 - $ 在 github 上新建一个 "HelloWorld" 仓库
