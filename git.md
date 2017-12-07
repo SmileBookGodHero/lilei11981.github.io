@@ -34,6 +34,12 @@
 
 - $ git pull origin master
 
+--------
+### 版本回退
+- $ git log (查看历史版本id)
+- $ git reset --hard id号 (回退到历史版本)
+- $ git push -f origin master (把回退后的版本推送到远程服务器)
+
 ----
 ### 新建代码库
 * 在当前目录新建一个Git代码库
