@@ -52,7 +52,7 @@
 - $ git clone [url]
 
 ----
-## 配置
+### 配置
 * 显示当前的Git配置
 - $ git config --list
 
@@ -65,7 +65,7 @@
 
 ----
 
-## 增加/删除文件
+### 增加/删除文件
 
 * 添加指定文件到暂存区
 - $ git add [file1][file2]...
@@ -90,7 +90,7 @@
 
 ----
 
-## 代码提交
+### 代码提交
 
 * 提交暂存区到仓库区
 - $ git commit -m [message]
@@ -113,7 +113,7 @@
 
 ----
 
-## 分支
+### 分支
 
 * 列出所有本地分支
 - $ git branch
@@ -160,7 +160,7 @@
 
 ----
 
-## 标签
+### 标签
 
 * 列出所有tag
 - $ git tag
@@ -191,7 +191,7 @@
 
 ----
 
-## 查看信息
+### 查看信息
 
 * 显示有变更的文件
 - $ git status
@@ -256,7 +256,7 @@
 
 ----
 
-## 远程同步
+### 远程同步
 
 * 下载远程仓库的所有变动
 - $ git fetch [remote]
@@ -284,7 +284,7 @@
 
 ----
 
-## 撤销
+### 撤销
 
 * 恢复暂存区的指定文件到工作区
 - $ git checkout [file]
@@ -320,9 +320,26 @@
 
 ----
 
-## 其他
+### 其他
 
 * 生成一个可供发布的压缩包
 - $ git archive
 
-  ----
+----
+## gitbook安装过程
+
+* 安装node.js
+> 下载地址：https://nodejs.org/en/
+
+* 安装成功后，输入**node -v**，显示node.js版本代表安装成功
+* 使用npm包管理工具安装gitbook
+* 在Mac下的命令：**sudo npm install gitbook-cli -g**
+> -g代表全局安装，使用**gitbook -V**命令查看gitbook版本
+
+* 建立gitbook电子书：目录下有SUMMARY.md（目录文件）和README.md（前言文件）
+* 输入**gitbook serve** 在浏览器输入http://localhost:4000 可预览电子书
+* 安装calibre
+> 下载地址：http://calibre-ebook.com/download
+
+* 输入**gitbook pdf** 可生成PDF文件
+* 输入**gitbook mobi** 可生成mobi电子书
