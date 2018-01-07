@@ -30,17 +30,18 @@
 
 ## 最近阅读书籍
 
-* 《光荣与梦想》——威廉·曼彻斯特
-* 《算法》——Robert Sedgewick, Kevin Wayne 著
-* 《lonely planet 系列：日本》——Benedict Walker等
-* 《史记》——司马迁
-* 《少有人走的路》——M·斯科特·派克
+* [《光荣与梦想》](https://book.douban.com/subject/26314954/)：“它既是长河巨浪，又涓滴可饮。”
+* [《算法》](https://book.douban.com/subject/19952400/)：这本书还没看完，豆瓣评价9.4，非常棒的书。
+* [《lonely planet 系列：日本》](https://book.douban.com/subject/26841390/)：买的第一本Lonely planet系列的书，非常值得阅读。
+* [《史记》](https://book.douban.com/subject/1836555/)：一直都有一个心愿那就是读完二十四史，那就从史记开始吧！
+* [《少有人走的路》](https://book.douban.com/subject/1775691/)：这是一本心理学书籍。
 
 ------------------------------
 
 ## 最近看的电影
 
-- **敦刻尔克**  导演：诺兰
+- **[敦刻尔克](https://movie.douban.com/subject/26607693/)**：电影院上映的时候没去看，趁周末有空看看。
+- **[纳尼亚传奇](https://movie.douban.com/subject/1309052/)**：高中的时候就看过，而且是在公开课的多媒体教室，充满想象力。
 
 
 -----------------------------
