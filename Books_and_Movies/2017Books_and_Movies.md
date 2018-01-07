@@ -4,14 +4,14 @@
 
 ## 2017年阅读书籍
 
-* 《精进：如何成为一个很厉害的人》——采铜
-* 《必然》——凯文·凯利
-* 《当我谈跑步时我谈些什么》——村上春树
-* 《ABC谋杀案》——阿加莎·克里斯蒂
-* 《无声告白》——伍绮诗
-* 《蚂蚁金服》——由曦
-* 《刻意练习》——安德斯·艾力克森
-* 《Head First Java》——Kathy Sierra, Bert Bates 著
+* [《精进》](https://book.douban.com/subject/26761696/)：知行合一才是最高境界。
+* [《必然》](https://book.douban.com/subject/26658379/)：“未来已经到来，只是尚未流行。”
+* [《当我谈跑步时我谈些什么》](https://book.douban.com/subject/3369600/)：让跑步称为终身运动吧！
+* [《ABC谋杀案》](https://book.douban.com/subject/24737009/)：以后要多读读推理小说，一定要在看电影之前。
+* [《无声告白》](https://book.douban.com/subject/26382433/)：关于亲子教育问题的，可以和电影【摔跤吧！爸爸】对比观看。
+* [《蚂蚁金服》](https://book.douban.com/subject/27004031/)：年终总结时，我把这本也归为工作相关的书。
+* [《刻意练习》](https://book.douban.com/subject/26895993/)：多动手的同时也要多动脑。
+* [《Head First Java》](https://book.douban.com/subject/2000732/)：很好的 Java 入门书。
 * 《Java 核心技术》——凯 S.霍斯特曼
 * 《程序员的数学思维修炼》——周颖
 * 《费马大定理》——西蒙·辛格
