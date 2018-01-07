@@ -12,22 +12,22 @@
 * [《蚂蚁金服》](https://book.douban.com/subject/27004031/)：年终总结时，我把这本也归为工作相关的书。
 * [《刻意练习》](https://book.douban.com/subject/26895993/)：多动手的同时也要多动脑。
 * [《Head First Java》](https://book.douban.com/subject/2000732/)：很好的 Java 入门书。
-* 《Java 核心技术》——凯 S.霍斯特曼
-* 《程序员的数学思维修炼》——周颖
-* 《费马大定理》——西蒙·辛格
-* 《冰与火之歌 [卷一]权力的游戏 上》——乔治R·R·马丁
-* 《冰与火之歌 [卷一]权力的游戏 中》——乔治R·R·马丁
-* 《极简欧洲史》——约翰•赫斯特
-* 《人类简史》——尤瓦尔·赫拉利
-* 《洛丽塔》——弗拉基米尔·纳博科夫
-* 《光荣与梦想》——威廉·曼彻斯特
-* 《算法》——Robert Sedgewick, Kevin Wayne 著
-* 《lonely planet 系列：日本》——Benedict Walker等
-* 《就喜欢你看不惯我又干不掉我的样子2》——白茶 绘著
-* 《Ali's Tail 阿狸 · 尾巴》——Hans 著 · 绘
-* 《肖申克的救赎》(剧本)——【美】弗兰克·达拉邦特 著
-* 《史记》——司马迁
-* 《少有人走的路》——M·斯科特·派克
+* [《Java 核心技术》](https://book.douban.com/subject/26880667/)：还写了一份目录导图。
+* [《程序员的数学思维修炼》](https://book.douban.com/subject/25854719/)：很快读完的一本书。
+* [《费马大定理》](https://book.douban.com/subject/20494401/)：这一本真的厉害，可以拍电影了。
+* [《冰与火之歌 [卷一]权力的游戏 上》](https://book.douban.com/subject/6964047/)：师弟帮忙从交大新图借的书。
+* [《冰与火之歌 [卷一]权力的游戏 中》](https://book.douban.com/subject/6973805/)：电视剧看了两遍，书应该看英文版。
+* [《极简欧洲史》](https://book.douban.com/subject/5366248/)：读这本是为了给《人类简史》做铺垫的。
+* [《人类简史》](https://book.douban.com/subject/25985021/)：帮人们重塑世界观的好书，震撼！
+* [《洛丽塔》](https://book.douban.com/subject/1040126/)：朋友推荐的，就读了，没有读完，语言有点怪异。
+* [《光荣与梦想》](https://book.douban.com/subject/26314954/)：一本大部头的书，读了四个月之久，好书。
+* [《算法》](https://book.douban.com/subject/19952400/)：针对 Java 语言，值得一读。
+* [《lonely planet 系列：日本》](https://book.douban.com/subject/26841390/)：在知乎看了许多上海和东京的对比，期待可以去看看。
+* [《就喜欢你看不惯我又干不掉我的样子2》](https://book.douban.com/subject/26830134/)：第一本还没看过。
+* [《Ali's Tail 阿狸 · 尾巴》](https://book.douban.com/subject/25732034/)：应该多读读这样的漫画书，一会儿就可以读好多本。
+* [《肖申克的救赎》](https://book.douban.com/subject/24756947/)：电影排行第一，剧本当然也是第一。
+* [《史记》](https://www.zhihu.com/question/27530229)：因为在豆瓣上没找到合适的版本，就贴了知乎的问题在这儿。
+* [《少有人走的路》](https://book.douban.com/subject/1775691/)："成年人的世界没有'容易'二字。"
 
 ------------------------------
 
