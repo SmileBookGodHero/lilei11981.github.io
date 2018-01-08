@@ -5,10 +5,12 @@
 
 ----
 ### 重置用户名
+
+``` bash
 - $ git config [--global] user.name "[name]"
 - $ git config [--global] user.email "[email address]"
 - $ git commit --amend--reset-author
-
+```
 -----
 ### 本地创建远程仓库
 - $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
