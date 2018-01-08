@@ -7,14 +7,16 @@
 ### 重置用户名
 
 ``` bash
-- $ git config [--global] user.name "[name]"
-- $ git config [--global] user.email "[email address]"
-- $ git commit --amend--reset-author
+$ git config [--global] user.name "[name]"
+$ git config [--global] user.email "[email address]"
+$ git commit --amend--reset-author
 ```
 -----
 ### 本地创建远程仓库
-- $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
 
+``` bash
+$ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
+```
 -------
 ### 把别人的项目加入到自己的项目中
 - $ 在 github 上新建一个 "HelloWorld" 仓库
@@ -25,6 +27,7 @@
 - $ git init （初始化 .git 文件）
 - $ git remote add origin + 自己仓库的地址（在 .git 中增加自己的 origin 的链接）
 - $ git pull origin master（与自己的项目同步）
+
 
 ----
 ### 提交代码常用
