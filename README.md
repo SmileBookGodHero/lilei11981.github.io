@@ -49,16 +49,16 @@
 -----------------------------
 
 ## 我的社交网络
-- 微博：[@李磊-SJTU](http://weibo.com/lingtiandipan)
-- 豆瓣：[豆瓣主页](https://www.douban.com/people/lilei1998/)
-- 知乎：[知乎主页](https://www.zhihu.com/people/li-lei-10-26)
-- 人人网：[我的主页](http://www.renren.com/357981768/profile)
-- GitHub：[个人主页](https://github.com/lilei11981)
-- Twitter：[推特主页](https://twitter.com/lilei1998)
-- Facebook：[个人主页](https://www.facebook.com/lilei11981)
-- Quora：[个人主页](https://www.quora.com/profile/%E7%A3%8A-%E6%9D%8E-12)
-- Flickr：[个人主页](https://www.flickr.com/people/155046335@N04/)
-- Tumblr：[个人主页](https://www.tumblr.com/blog/lilei11981)
+- [微博](http://weibo.com/lingtiandipan)：
+- [豆瓣](https://www.douban.com/people/lilei1998/)：
+- [知乎](https://www.zhihu.com/people/li-lei-10-26)：
+- [人人网](http://www.renren.com/357981768/profile)：
+- [GitHub](https://github.com/lilei11981)：
+- [Twitter](https://twitter.com/lilei1998)：
+- [Facebook](https://www.facebook.com/lilei11981)：
+- [Quora](https://www.quora.com/profile/%E7%A3%8A-%E6%9D%8E-12)：
+- [Flickr](https://www.flickr.com/people/155046335@N04/)：
+- [Tumblr](https://www.tumblr.com/blog/lilei11981)：
 
 ---------------------------
 
