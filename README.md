@@ -11,20 +11,12 @@
 
 -----------------------------
 
-## 我喜欢的台词
+## 看过的影视剧
 
-> Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all the nights to come.  <br>
->
-> Kill the boy and let the man be born.<br>
->
-> —— [权力的游戏(Game of Thrones, GOT)](Game_of_Thrones.md)<br>
+* [权力的游戏]()：Kill the boy and let the man be born.
 
 
-> The problems of your past are your business, the problems of your future are my privilege.<br>
->
-> Once you've ruled out the impossible, whatever remains, however improbable, must be true. <br>
->
-> —— [神探夏洛克](Deduction/Sherlock.md)
+* [神探夏洛克]()： The problems of your past are your business, the problems of your future are my privilege.
 
 -----------
 
