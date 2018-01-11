@@ -14,7 +14,7 @@
 ## 看过的影视剧
 > 更改原来的“我喜欢的台词”为“看过的电视剧”，开始记录2018年看的电视剧，纪录片等。 
 
-* [权力的游戏]()：Kill the boy and let the man be born.
+* [权力的游戏](https://movie.douban.com/subject/26235354/)：Kill the boy and let the man be born.
 
 * [神探夏洛克]()： The problems of your past are your business, the problems of your future are my privilege.
 
