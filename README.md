@@ -39,6 +39,7 @@
 - **[泰坦尼克号](https://movie.douban.com/subject/1292722/)**：这部电影看过好多遍了，经典到注定要成为电影史上的奇迹。
 - **[勇敢者游戏：决战丛林](https://movie.douban.com/subject/26586766/)**：很有意思的一部电影，类似纳尼亚传奇的剧情设定。
 - **[我的野蛮女友](https://movie.douban.com/subject/1292286/)**：还是很好看的呢！
+- **[神秘巨星](https://movie.douban.com/subject/26942674/)**：比【摔跤吧！爸爸】更赞！
 
 -----------------------------
 
