@@ -27,7 +27,10 @@
 * [《算法》](https://book.douban.com/subject/19952400/)：这本书还没看完，豆瓣评价9.4，非常棒的书。
 * [《lonely planet 系列：日本》](https://book.douban.com/subject/26841390/)：买的第一本Lonely planet系列的书，非常值得阅读。
 * [《史记》](https://book.douban.com/subject/1836555/)：一直都有一个心愿那就是读完二十四史，那就从史记开始吧！
-* [《少有人走的路》](https://book.douban.com/subject/1775691/)：这是一本心理学书籍。
+* [《少有人走的路》](https://book.douban.com/subject/1775691/)：这是一本心理学书籍，不是鸡汤。
+* [《枪炮、病菌与钢铁》](https://book.douban.com/subject/1813841/)：据说是一本比《人类简史》更牛的书。
+* [《尼罗河上的惨案》](https://book.douban.com/subject/1813841/)：开年的第一本推理书。
+* [《富爸爸穷爸爸》](https://book.douban.com/subject/3291111/)：原以为这是一本儿童读物，和【大头儿子小头爸爸】类似，名字错过一本好书系列。
 
 ------------------------------
 
