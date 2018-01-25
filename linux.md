@@ -18,7 +18,7 @@ $ pandoc Markdown.md -o Markdown.docx
 
 * 安装Homebrew
 ``` bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 * *brew list* 列出已安装的软件列表
 * *brew info git* 显示软件内容信息
