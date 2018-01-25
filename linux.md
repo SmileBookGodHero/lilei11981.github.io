@@ -2,7 +2,16 @@
 
 -----
 ### Mac 常用指令
-* *sudo killall -HUP mDNSResponder* 清除DNS缓存
+
+``` bash
+$ sudo killall -HUP mDNSResponder  清除DNS缓存
+```
+
+``` bash
+$ pandoc Markdown.md -o Markdown.docx  把md文件转为docx文件
+```
+
+
 
 -----
 ### Homebrew常用指令
