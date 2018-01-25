@@ -13,11 +13,13 @@ $ sudo killall -HUP mDNSResponder
 $ pandoc Markdown.md -o Markdown.docx
 ```
 
-
-
 -----
 ### Homebrew常用指令
-* */usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"* 安装Homebrew
+
+* 安装Homebrew
+``` bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 * *brew list* 列出已安装的软件列表
 * *brew info git* 显示软件内容信息
 * *brew deps git* 显示包依赖
