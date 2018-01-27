@@ -11,9 +11,11 @@
 ## 看过的影视剧
 > 更改原来的“我喜欢的台词”为“看过的电视剧”，开始记录2018年看的电视剧，纪录片等。 
 
-* [权力的游戏](https://movie.douban.com/subject/26235354/)：Kill the boy and let the man be born.
-
-* [神探夏洛克](https://movie.douban.com/subject/25750923/)： The problems of your past are your business, the problems of your future are my privilege.
+* [权力的游戏第七季](https://movie.douban.com/subject/26235354/)：Kill the boy and let the man be born.
+* [神探夏洛克第四季](https://movie.douban.com/subject/25750923/)： The problems of your past are your business, the problems of your future are my privilege.
+* [生活大爆炸第七季](https://movie.douban.com/subject/21339708/)：一如既往的精彩。
+* [生活大爆炸第八季](https://movie.douban.com/subject/25845393/)：一周的时间看完。
+* [生活大爆炸第九季](https://movie.douban.com/subject/25845400/)：开头有点憋屈，继续！
 
 -----------
 
@@ -28,6 +30,7 @@
 * [《枪炮、病菌与钢铁》](https://book.douban.com/subject/1813841/)：据说是一本比《人类简史》更牛的书。
 * [《尼罗河上的惨案》](https://book.douban.com/subject/1813841/)：开年的第一本推理书。
 * [《富爸爸穷爸爸》](https://book.douban.com/subject/3291111/)：原以为这是一本儿童读物，和【大头儿子小头爸爸】类似，名字错过一本好书系列。
+* [《浮生六记》](https://book.douban.com/subject/26610864/)：大师推荐的书。
 
 ------------------------------
 
@@ -40,6 +43,7 @@
 - **[勇敢者游戏：决战丛林](https://movie.douban.com/subject/26586766/)**：很有意思的一部电影，类似纳尼亚传奇的剧情设定。
 - **[我的野蛮女友](https://movie.douban.com/subject/1292286/)**：还是很好看的呢！
 - **[神秘巨星](https://movie.douban.com/subject/26942674/)**：比【摔跤吧！爸爸】更赞！
+- [看不见的客人](https://movie.douban.com/subject/26580232/)：2017年最佳悬疑电影。
 
 -----------------------------
 
