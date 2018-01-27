@@ -4,7 +4,7 @@
 - **生活日志** ：[书评](./Books_and_Movies/Books_and_Movies.md)、[影评](./Books_and_Movies/Books_and_Movies.md)、[日志](./Stories/Stories.md)。
 - **[资源共享](./Books_and_Movies/movie.md)** ：电影、纪录片。
 - **习惯爱好** ：乒乓球、羽毛球、跑步、推理……
-- **[2017年阅读书籍和观看电影](./Books_and_Movies/2017Books_and_Movies.md)**
+- [2017年阅读书籍和观看电影](./Books_and_Movies/2017Books_and_Movies.md)
 
 -----------------------------
 
@@ -37,12 +37,12 @@
 ## 最近看的电影
 > 开始记录2018年观看的电影，包括之前看过的电影。
 
-- **[敦刻尔克](https://movie.douban.com/subject/26607693/)**：电影院上映的时候没去看，趁周末有空看看。
-- **[纳尼亚传奇](https://movie.douban.com/subject/1309052/)**：高中的时候就看过，而且是在公开课的多媒体教室，充满想象力。
-- **[泰坦尼克号](https://movie.douban.com/subject/1292722/)**：这部电影看过好多遍了，经典到注定要成为电影史上的奇迹。
-- **[勇敢者游戏：决战丛林](https://movie.douban.com/subject/26586766/)**：很有意思的一部电影，类似纳尼亚传奇的剧情设定。
-- **[我的野蛮女友](https://movie.douban.com/subject/1292286/)**：还是很好看的呢！
-- **[神秘巨星](https://movie.douban.com/subject/26942674/)**：比【摔跤吧！爸爸】更赞！
+- [敦刻尔克](https://movie.douban.com/subject/26607693/)：电影院上映的时候没去看，趁周末有空看看。
+- [纳尼亚传奇](https://movie.douban.com/subject/1309052/)：高中的时候就看过，而且是在公开课的多媒体教室，充满想象力。
+- [泰坦尼克号](https://movie.douban.com/subject/1292722/)：这部电影看过好多遍了，经典到注定要成为电影史上的奇迹。
+- [勇敢者游戏：决战丛林](https://movie.douban.com/subject/26586766/)：很有意思的一部电影，类似纳尼亚传奇的剧情设定。
+- [我的野蛮女友](https://movie.douban.com/subject/1292286/)：还是很好看的呢！
+- [神秘巨星](https://movie.douban.com/subject/26942674/)：比【摔跤吧！爸爸】更赞！
 - [看不见的客人](https://movie.douban.com/subject/26580232/)：2017年最佳悬疑电影。
 
 -----------------------------
