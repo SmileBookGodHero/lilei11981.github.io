@@ -44,6 +44,7 @@
 - [我的野蛮女友](https://movie.douban.com/subject/1292286/)：还是很好看的呢！
 - [神秘巨星](https://movie.douban.com/subject/26942674/)：比【摔跤吧！爸爸】更赞！
 - [看不见的客人](https://movie.douban.com/subject/26580232/)：2017年最佳悬疑电影。
+- [神秘巨星](https://movie.douban.com/subject/26942674/)：时隔一周，又看了一遍，好像第一次到电影院二刷。
 - [消失的爱人](https://movie.douban.com/subject/21318488/)：这个电影，有点儿深刻。
 
 -----------------------------
