@@ -13,7 +13,10 @@
     * 常量：PI = 3.14159265359
 
 * 字符串和编码
-> 对于单个字符的编码，Python提供了ord()函数获取字符的整数表示，chr()函数把编码转换为对应的字符：
+    * 字符编码
+    * Python的字符串
+    > 对于单个字符的编码，Python提供了ord()函数获取字符的整数表示，chr()函数把编码转换为对应的字符：
+    > 以Unicode表示的str，通过encode()方法可以编码为指定的bytes，要把bytes变为str，就需要用decode()方法
 
 ```
 >>> ord('A')
@@ -24,6 +27,10 @@
 'B'
 >>> chr(25991)
 '文'
+>>> 'ABC'.encode('ascii')
+b'ABC'
+>>> '中文'.encode('utf-8')
+b'\xe4\xb8\xad\xe6\x96\x87'
 ```
 * 使用list和tuple
 
