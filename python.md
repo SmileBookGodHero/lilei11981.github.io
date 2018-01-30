@@ -15,6 +15,7 @@
 * 字符串和编码
     * 字符编码
     * Python的字符串
+    
     > 对于单个字符的编码，Python提供了ord()函数获取字符的整数表示，chr()函数把编码转换为对应的字符：
     
     ``` bash
@@ -38,6 +39,7 @@
     ```
     
     > len()函数计算的是str的字符数，如果换成bytes，len()函数就计算字节数，1个中文字符经过UTF-8编码后通常会占用3个字节，而1个英文字符只占用1个字节，在操作字符串时，我们经常遇到`str`和`bytes`的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对`str`和`bytes`进行转换。
+    
     ``` bash
     >>> len(b'ABC')
     3
@@ -46,16 +48,20 @@
     >>> len('中文'.encode('utf-8'))
     6
     ```
+    
     > 由于Python源代码也是一个文本文件，所以，当你的源代码中包含中文的时候，在保存源代码时，就需要务必指定保存为UTF-8编码。当Python解释器读取源代码时，为了让它按UTF-8编码读取，我们通常在文件开头写上这两行：
+    
     ``` bash
     #!/usr/bin/env python3
     # -*- coding: utf-8 -*-
     ```
+    
     > 第一行注释是为了告诉Linux/OS X系统，这是一个Python可执行程序，Windows系统会忽略这个注释；
     > 第二行注释是为了告诉Python解释器，按照UTF-8编码读取源代码，否则，你在源代码中写的中文输出可能会有乱码。
 
     * 格式化
     > 在Python中，采用的格式化方式和C语言是一致的，用%实现，举例如下：
+    
     ``` bash
     >>> 'Hello, %s' % 'world'
     'Hello, world'
@@ -65,50 +71,66 @@
 
 * 使用list和tuple
     * list
+    
     > Python内置的一种数据类型是列表：list。list是一种有序的集合，可以随时添加和删除其中的元素。
+    
     ``` bash
     >>> classmates = ['Michael', 'Bob', 'Tracy']
     >>> classmates
     ['Michael', 'Bob', 'Tracy']
     ```
+    
     > len() 获得list元素的个数
     > 追加元素到末尾
+    
     ``` bash
     >>> classmates.append('Adam')
     >>> classmates
     ['Michael', 'Bob', 'Tracy', 'Adam']
     ```
+    
     > 插入元素到指定位置
+    
     ``` bash
     >>> classmates.insert(1, 'Jack')
     >>> classmates
     ['Michael', 'Jack', 'Bob', 'Tracy', 'Adam']
     ```
+    
     > 删除list末尾的元素
+    
     ``` bash
     >>> classmates.pop()
     'Adam'
     >>> classmates
     ['Michael', 'Jack', 'Bob', 'Tracy']
     ```
+    
     > 删除指定位置的元素
+    
     ``` bash
     >>> classmates.pop(1)
     'Jack'
     >>> classmates
     ['Michael', 'Bob', 'Tracy']
     ```
+    
     > 替换指定位置元素
+    
     ``` bash
     >>> classmates[1] = 'Sarah'
     >>> classmates
     ['Michael', 'Sarah', 'Tracy']
     ```
+    
     > list里面的元素的数据类型也可以不同
+    
     ``` bash
     >>> L = ['Apple', 123, True]
     ```
+    
     > list元素也可以是另一个list
+    
     ``` bash
     >>> s = ['python', 'java', ['asp', 'php'], 'scheme']
     >>> len(s)
