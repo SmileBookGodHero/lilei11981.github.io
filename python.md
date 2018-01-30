@@ -16,22 +16,36 @@
     * 字符编码
     * Python的字符串
     > 对于单个字符的编码，Python提供了ord()函数获取字符的整数表示，chr()函数把编码转换为对应的字符：
-    > 以Unicode表示的str，通过encode()方法可以编码为指定的bytes，要把bytes变为str，就需要用decode()方法
 
-```
->>> ord('A')
-65
->>> ord('中')
-20013
->>> chr(66)
-'B'
->>> chr(25991)
-'文'
->>> 'ABC'.encode('ascii')
-b'ABC'
->>> '中文'.encode('utf-8')
-b'\xe4\xb8\xad\xe6\x96\x87'
-```
+    ``` python
+    >>> ord('A')
+    65
+    >>> ord('中')
+    20013
+    >>> chr(66)
+    'B'
+    >>> chr(25991)
+    '文'
+    ```
+
+    > 以Unicode表示的str，通过encode()方法可以编码为指定的bytes，要把bytes变为str，就需要用decode()方法：
+
+    ``` python
+    >>> '中文'.encode('utf-8')
+    b'\xe4\xb8\xad\xe6\x96\x87'
+    >>> b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
+    '中文'
+    ```
+
+    > len()函数计算的是str的字符数，如果换成bytes，len()函数就计算字节数
+    ``` python
+    >>> len(b'ABC')
+    3
+    >>> len(b'\xe4\xb8\xad\xe6\x96\x87')
+    6
+    >>> len('中文'.encode('utf-8'))
+    6
+    ```
 * 使用list和tuple
 
 * 条件判断
