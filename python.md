@@ -250,9 +250,9 @@
     * set
 
     > set和dict类似，也是一组key的集合，但不存储value。由于key不能重复，所以，在set中，没有重复的key。
-    
+
     * 不可变对象
-    
+
     ``` python
     >>> a = 'abc'
     >>> b = a.replace('a', 'A')
@@ -261,13 +261,84 @@
     >>> a
     'abc'
     ```
-    
+
     > 当我们调用a.replace('a', 'A')时，实际上调用方法replace是作用在字符串对象'abc'上的，而这个方法虽然名字叫replace，但却没有改变字符串'abc'的内容。相反，replace方法创建了一个新字符串'Abc'并返回，如果我们用变量b指向该新字符串，就容易理解了，变量a仍指向原有的字符串'abc'，但变量b却指向新字符串'Abc'了
-    
+
 
 ### 函数
 * 调用函数
+    * 内置函数
+
+    > abs(-1) 求绝对值
+    > max(2, 3, 1, -5) 求最大值
+
+    * 数据类型转换
+
+    ``` python
+    >>> int('123')
+    123
+    >>> int(12.34)
+    12
+    >>> float('12.34')
+    12.34
+    >>> str(1.23)
+    '1.23'
+    >>> str(100)
+    '100'
+    >>> bool(1)
+    True
+    >>> bool('')
+    False
+    ```
+
 * 定义函数
+    * 定义函数
+    
+    > 在Python中，定义一个函数要使用def语句，依次写出函数名、括号、括号中的参数和冒号:，然后，在缩进块中编写函数体，函数的返回值用return语句返回。
+    
+    > 自定义一个求绝对值的my_abs函数
+    
+    ``` python
+    # -*- coding: utf-8 -*-
+    def my_abs(x):
+    if x >= 0:
+        return x
+    else:
+        return -x
+    ```
+    
+    > 请注意，函数体内部的语句在执行时，一旦执行到return时，函数就执行完毕，并将结果返回。因此，函数内部通过条件判断和循环可以实现非常复杂的逻辑。
+    > 如果没有return语句，函数执行完毕后也会返回结果，只是结果为None。return None可以简写为return。
+    > 如果你已经把my_abs()的函数定义保存为abstest.py文件了，那么，可以在该文件的当前目录下启动Python解释器，用from abstest import my_abs来导入my_abs()函数，注意abstest是文件名（不含.py扩展名）
+    
+    * 空函数
+    
+    > 如果想定义一个什么事也不做的空函数，可以用pass语句：
+    
+    ``` python
+    def nop():
+    pass
+    ```
+    
+    > 实际上pass可以用来作为占位符，比如现在还没想好怎么写函数的代码，就可以先放一个pass，让代码能运行起来。
+    
+    * 参数检查
+    
+    > 调用函数时，如果参数个数不对，Python解释器会自动检查出来，并抛出TypeError
+
+    * 返回多个值
+    
+    ``` python
+    import math
+
+    def move(x, y, step, angle=0):
+        nx = x + step * math.cos(angle)
+        ny = y - step * math.sin(angle)
+        return nx, ny
+    ```
+    
+    > 返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。
+    
 * 函数的参数
 * 递归函数
 
