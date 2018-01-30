@@ -15,8 +15,8 @@
 * 字符串和编码
     * 字符编码
     * Python的字符串
+    
     > 对于单个字符的编码，Python提供了ord()函数获取字符的整数表示，chr()函数把编码转换为对应的字符：
-
     ``` python
     >>> ord('A')
     65
@@ -27,16 +27,13 @@
     >>> chr(25991)
     '文'
     ```
-
     > 以Unicode表示的str，通过encode()方法可以编码为指定的bytes，要把bytes变为str，就需要用decode()方法：
-
     ``` python
     >>> '中文'.encode('utf-8')
     b'\xe4\xb8\xad\xe6\x96\x87'
     >>> b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
     '中文'
     ```
-
     > len()函数计算的是str的字符数，如果换成bytes，len()函数就计算字节数，1个中文字符经过UTF-8编码后通常会占用3个字节，而1个英文字符只占用1个字节，在操作字符串时，我们经常遇到`str`和`bytes`的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对`str`和`bytes`进行转换。
     ``` python
     >>> len(b'ABC')
@@ -54,6 +51,14 @@
     > 第一行注释是为了告诉Linux/OS X系统，这是一个Python可执行程序，Windows系统会忽略这个注释；
     > 第二行注释是为了告诉Python解释器，按照UTF-8编码读取源代码，否则，你在源代码中写的中文输出可能会有乱码。
 
+    * 格式化
+    > 在Python中，采用的格式化方式和C语言是一致的，用%实现，举例如下：
+    ``` python
+    >>> 'Hello, %s' % 'world'
+    'Hello, world'
+    >>> 'Hi, %s, you have $%d.' % ('Michael', 1000000)
+    'Hi, Michael, you have $1000000.'
+    ```
 
 * 使用list和tuple
 
