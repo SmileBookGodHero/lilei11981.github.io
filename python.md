@@ -163,9 +163,9 @@
         print('your age is', age)
         print('kid')
     ```
-    
+
     > 使用input()读取用户输入
-    
+
     ``` python
     s = input('birth: ')
     birth = int(s)
@@ -174,8 +174,50 @@
     else:
         print('00后')
     ```
-    
+
 * 循环
+    * 循环
+
+    > Python的循环有两种，一种是for...in循环，依次把list或tuple中的每个元素迭代出来
+    ``` python
+    names = ['Michael', 'Bob', 'Tracy']
+    for name in names:
+        print(name)
+    ```
+
+    > 计算1-100的整数之和
+
+    ``` python
+    # -*- coding: utf-8 -*-
+    sum = 0
+    for x in range(101):
+        sum = sum + x
+    print(sum)
+    ```
+    
+    > 第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。比如我们要计算100以内所有奇数之和，可以用while循环实现：
+    
+    ``` python
+    sum = 0
+    n = 99
+    while n > 0:
+        sum = sum + n
+        n = n - 2
+    print(sum)
+    ```
+    
+    * break
+    
+    > 在循环中，break语句可以提前退出循环
+    ``` python
+    n = 1
+    while n <= 100:
+        if n > 10: # 当n = 11时，条件满足，执行break语句
+            break # break语句会结束当前循环
+        print(n)
+        n = n + 1
+    print('END')
+    ```
 
 * 使用dict和set
 
