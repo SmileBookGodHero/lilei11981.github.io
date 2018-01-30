@@ -179,6 +179,7 @@
     * 循环
 
     > Python的循环有两种，一种是for...in循环，依次把list或tuple中的每个元素迭代出来
+
     ``` python
     names = ['Michael', 'Bob', 'Tracy']
     for name in names:
@@ -194,9 +195,9 @@
         sum = sum + x
     print(sum)
     ```
-    
+
     > 第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。比如我们要计算100以内所有奇数之和，可以用while循环实现：
-    
+
     ``` python
     sum = 0
     n = 99
@@ -205,11 +206,11 @@
         n = n - 2
     print(sum)
     ```
-    
+
     * break
-    
+
     > 在循环中，break语句可以提前退出循环
-    
+
     ``` python
     n = 1
     while n <= 100:
@@ -219,11 +220,11 @@
         n = n + 1
     print('END') # 打印出1~10后，紧接着打印END
     ```
-    
+
     * continue
-    
+
     > 在循环过程中，也可以通过continue语句，跳过当前的这次循环，直接开始下一次循环
-    
+
     ``` python
     n = 0
     while n < 10:
@@ -234,6 +235,35 @@
     ```
 
 * 使用dict和set
+    * dict
+
+    > Python内置了字典：dict的支持，dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。
+
+    ``` python
+    >>> d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+    >>> d['Michael']
+    95
+    ```
+
+    > dict内部存放的顺序和key放入的顺序是没有关系的
+
+    * set
+
+    > set和dict类似，也是一组key的集合，但不存储value。由于key不能重复，所以，在set中，没有重复的key。
+    
+    * 不可变对象
+    
+    ``` python
+    >>> a = 'abc'
+    >>> b = a.replace('a', 'A')
+    >>> b
+    'Abc'
+    >>> a
+    'abc'
+    ```
+    
+    > 当我们调用a.replace('a', 'A')时，实际上调用方法replace是作用在字符串对象'abc'上的，而这个方法虽然名字叫replace，但却没有改变字符串'abc'的内容。相反，replace方法创建了一个新字符串'Abc'并返回，如果我们用变量b指向该新字符串，就容易理解了，变量a仍指向原有的字符串'abc'，但变量b却指向新字符串'Abc'了
+    
 
 ### 函数
 * 调用函数
