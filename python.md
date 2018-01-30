@@ -60,6 +60,47 @@
     ```
 
 * 使用list和tuple
+    * list
+    > Python内置的一种数据类型是列表：list。list是一种有序的集合，可以随时添加和删除其中的元素。
+    ```
+    >>> classmates = ['Michael', 'Bob', 'Tracy']
+    >>> classmates
+    ['Michael', 'Bob', 'Tracy']
+    ```
+    > len() 获得list元素的个数
+    > 追加元素到末尾
+    ```
+    >>> classmates.append('Adam')
+    >>> classmates
+    ['Michael', 'Bob', 'Tracy', 'Adam']
+    ```
+    > 插入元素到指定位置
+    ```
+    >>> classmates.insert(1, 'Jack')
+    >>> classmates
+    ['Michael', 'Jack', 'Bob', 'Tracy', 'Adam']
+    ```
+    > 删除list末尾的元素
+    ```
+    >>> classmates.pop()
+    'Adam'
+    >>> classmates
+    ['Michael', 'Jack', 'Bob', 'Tracy']
+    ```
+    > 删除指定位置的元素
+    ```
+    >>> classmates.pop(1)
+    'Jack'
+    >>> classmates
+    ['Michael', 'Bob', 'Tracy']
+    ```
+    > 替换指定位置元素
+    ```
+    >>> classmates[1] = 'Sarah'
+    >>> classmates
+    ['Michael', 'Sarah', 'Tracy']
+    ```
+    
 
 * 条件判断
 
