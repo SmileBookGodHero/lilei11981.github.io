@@ -29,9 +29,9 @@
 * [《少有人走的路》](https://book.douban.com/subject/1775691/)：这是一本心理学书籍，不是鸡汤。
 * [《枪炮、病菌与钢铁》](https://book.douban.com/subject/1813841/)：据说是一本比《人类简史》更牛的书。
 * [《尼罗河上的惨案》](https://book.douban.com/subject/1813841/)：开年的第一本推理书。
-* [《富爸爸穷爸爸》](https://book.douban.com/subject/3291111/)：原以为这是一本儿童读物，差点儿错过一本好书。
+* [《富爸爸穷爸爸》](https://book.douban.com/subject/3291111/)：原以为这是本儿童读物，差点儿错过一本好书。
 * [《浮生六记》](https://book.douban.com/subject/26610864/)：大师推荐的书。
-* [《全球通史》]()：这本书一定好好好看一下，一定会有收获的。
+* [《全球通史》](https://book.douban.com/subject/1225977/)：这本书一定要好好阅读，一定会有收获的。
 
 ------------------------------
 
@@ -47,7 +47,7 @@
 - [看不见的客人](https://movie.douban.com/subject/26580232/)：2017年最佳悬疑电影。
 - [神秘巨星](https://movie.douban.com/subject/26942674/)：时隔一周，又看了一遍，好像第一次到电影院二刷。
 - [消失的爱人](https://movie.douban.com/subject/21318488/)：这个电影，有点儿深刻。
-- [奇迹男孩]()：最近上映的比较看好的电影。
+- [奇迹男孩](https://movie.douban.com/subject/26787574/)：最近上映的比较看好的电影。
 
 -----------------------------
 
