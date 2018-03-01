@@ -1,6 +1,6 @@
 #  The Game is On
 
-- **工作总结** ：隶属于[上海华瑞银行](https://www.shrbank.com/)信息科技部软件中心，供职于互联网金融业务总部[开放平台](https://open.hulubank.com.cn/)。
+- **工作总结** ：隶属于[上海华瑞银行](https://www.shrbank.com/)信息科技部互联网科技研发中心，供职于互联网金融业务总部[开放平台](https://open.hulubank.com.cn/)。
 - **生活日志** ：[书评](./Books_and_Movies/Books_and_Movies.md)、[影评](./Books_and_Movies/Books_and_Movies.md)、[日志](./Stories/Stories.md)。
 - **[资源共享](./Books_and_Movies/movie.md)** ：电影、纪录片。
 - **习惯爱好** ：乒乓球、羽毛球、跑步、推理……
