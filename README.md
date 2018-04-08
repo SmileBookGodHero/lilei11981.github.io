@@ -32,6 +32,8 @@
 * [《富爸爸穷爸爸》](https://book.douban.com/subject/3291111/)：原以为这是本儿童读物，差点儿错过一本好书。
 * [《浮生六记》](https://book.douban.com/subject/26610864/)：大师推荐的书。
 * [《全球通史》](https://book.douban.com/subject/1225977/)：这本书一定要好好阅读，一定会有收获的。
+* [《刺杀骑士团长》](https://book.douban.com/subject/27199470/)：村上春树的新书，悬疑类型。
+
 
 ------------------------------
 
@@ -56,7 +58,7 @@
 - [银翼杀手 2049](https://movie.douban.com/subject/10512661/)：奥斯卡提名的科幻电影，看不懂，难以理解。
 - [帕丁顿熊2](https://movie.douban.com/subject/26340419/)：好像是儿童漫画改编的。
 - [古墓丽影：缘起之战](https://movie.douban.com/subject/3445906/)：没有看过第一部，女主跑得真快，男主英语说的真好。
-
+- [头号玩家](https://movie.douban.com/subject/4920389/)：斯皮尔伯格导演的作品，评分很高，好看。
 -----------------------------
 
 ## 我的社交网络
