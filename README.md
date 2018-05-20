@@ -79,6 +79,8 @@
 - [钢铁侠3](https://movie.douban.com/subject/3231742/)：为了看《复仇者联盟3》，补补课。
 - [美国队长3](https://movie.douban.com/subject/25820460/)：为了看《复仇者联盟》，补补课。
 - [复仇者联盟3:无限战争](https://movie.douban.com/subject/24773958/)：十年布局、巅峰一战。
+- [雷神](https://movie.douban.com/subject/1866471/)：
+- [无敌浩克](https://movie.douban.com/subject/1866475/)：
 
 -----------------------------
 
