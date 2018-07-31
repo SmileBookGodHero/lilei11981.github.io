@@ -82,6 +82,8 @@
 - [雷神](https://movie.douban.com/subject/1866471/)：
 - [无敌浩克](https://movie.douban.com/subject/1866475/)：
 - [少林足球](https://movie.douban.com/subject/1297747/)：
+- [无问西东](https://movie.douban.com/subject/6874741/)：
+- [百鸟朝凤](https://movie.douban.com/subject/10831445/)：
 - [动物世界](https://movie.douban.com/subject/26925317/)：
 - [厕所英雄](https://movie.douban.com/subject/26942645/)：
 - [我不是药神](https://movie.douban.com/subject/26752088/)：
