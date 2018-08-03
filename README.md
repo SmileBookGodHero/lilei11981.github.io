@@ -87,7 +87,7 @@
 - [动物世界](https://movie.douban.com/subject/26925317/)：石头、剪刀和布的故事。
 - [厕所英雄](https://movie.douban.com/subject/26942645/)：好看。
 - [我不是药神](https://movie.douban.com/subject/26752088/)：年度最佳。
-- [西虹市首富](https://movie.douban.com/subject/27605698/)：很好看的搞笑片。
+- [西虹市首富](https://movie.douban.com/subject/27605698/)：气氛已经烘到这儿了！
 
 -----------------------------
 
