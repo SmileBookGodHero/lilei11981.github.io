@@ -79,15 +79,15 @@
 - [钢铁侠3](https://movie.douban.com/subject/3231742/)：为了看《复仇者联盟3》，补补课。
 - [美国队长3](https://movie.douban.com/subject/25820460/)：为了看《复仇者联盟》，补补课。
 - [复仇者联盟3:无限战争](https://movie.douban.com/subject/24773958/)：十年布局、巅峰一战。
-- [雷神](https://movie.douban.com/subject/1866471/)：
-- [无敌浩克](https://movie.douban.com/subject/1866475/)：
-- [少林足球](https://movie.douban.com/subject/1297747/)：
-- [无问西东](https://movie.douban.com/subject/6874741/)：
-- [百鸟朝凤](https://movie.douban.com/subject/10831445/)：
-- [动物世界](https://movie.douban.com/subject/26925317/)：
-- [厕所英雄](https://movie.douban.com/subject/26942645/)：
-- [我不是药神](https://movie.douban.com/subject/26752088/)：
-- [西虹市首富](https://movie.douban.com/subject/27605698/)：
+- [雷神](https://movie.douban.com/subject/1866471/)：终于看完了这一系列，还是很精彩的。
+- [无敌浩克](https://movie.douban.com/subject/1866475/)：这个貌似还没看。
+- [少林足球](https://movie.douban.com/subject/1297747/)：星爷的电影，在世界杯期间连续看了几遍，非常的经典。
+- [无问西东](https://movie.douban.com/subject/6874741/)：还是不错的，很喜欢这种历史题材的电影。
+- [百鸟朝凤](https://movie.douban.com/subject/10831445/)：讲的是文化传承。
+- [动物世界](https://movie.douban.com/subject/26925317/)：石头、剪刀和布的故事。
+- [厕所英雄](https://movie.douban.com/subject/26942645/)：好看。
+- [我不是药神](https://movie.douban.com/subject/26752088/)：年度最佳。
+- [西虹市首富](https://movie.douban.com/subject/27605698/)：很好看的搞笑片。
 
 -----------------------------
 
