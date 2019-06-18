@@ -933,9 +933,68 @@ VALUES (value1,value2,...);
 
 
 
-* 创建一个名为`tasks`的新表来练习`INSERT`语句
+* 把数据插入数据库
 
+```mysql
+mysql> INSERT INTO tasks (SUBJECT,start_date,end_date,description) VALUES ('Learn MySQL INSERT','2017-07-21','2017-07-22','Start learning..');
+Query OK, 1 row affected (0.01 sec)
 ```
 
+* 查看数据
+
+```mysql
+mysql> SELECT * FROM tasks;
++---------+--------------------+------------+------------+------------------+
+| task_id | SUBJECT            | start_date | end_date   | description      |
++---------+--------------------+------------+------------+------------------+
+|       1 | Learn MySQL INSERT | 2017-07-21 | 2017-07-22 | Start learning.. |
++---------+--------------------+------------+------------+------------------+
+1 row in set (0.00 sec)
+```
+
+* 插入多行
+
+```mysql
+mysql> INSERT INTO tasks (SUBJECT,start_date,end_date,description) VALUES ('任务-1','2017-01-01','2017-01-02','Description 1'),('任务-2','2017-01-01','2017-01-02','Description 2'),('任务-3','2017-01-01','2017-01-02','Description 3');
+Query OK, 3 rows affected (0.00 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+```
+
+* 查看数据
+
+```mysql
+mysql> SELECT*FROM tasks;
++---------+--------------------+------------+------------+------------------+
+| task_id | SUBJECT            | start_date | end_date   | description      |
++---------+--------------------+------------+------------+------------------+
+|       1 | Learn MySQL INSERT | 2017-07-21 | 2017-07-22 | Start learning.. |
+|       3 | 任务-1             | 2017-01-01 | 2017-01-02 | Description 1    |
+|       4 | 任务-2             | 2017-01-01 | 2017-01-02 | Description 2    |
+|       5 | 任务-3             | 2017-01-01 | 2017-01-02 | Description 3    |
++---------+--------------------+------------+------------+------------------+
+4 rows in set (0.00 sec)
+```
+
+
+
+> 如果为表中的所有列指定相应列的值，则可以忽略`INSERT`语句中的列列表
+
+
+
+* 具有SELECT子句的INSERT
+
+```mysql
+mysql> CREATE TABLE tasks_bak LIKE tasks;
+mysql> INSERT INTO tasks_bak SELECT*FROM tasks;
+mysql> SELECT*FROM tasks_bak;
++---------+--------------------+------------+------------+------------------+
+| task_id | SUBJECT            | start_date | end_date   | description      |
++---------+--------------------+------------+------------+------------------+
+|       1 | Learn MySQL INSERT | 2017-07-21 | 2017-07-22 | Start learning.. |
+|       3 | 任务-1             | 2017-01-01 | 2017-01-02 | Description 1    |
+|       4 | 任务-2             | 2017-01-01 | 2017-01-02 | Description 2    |
+|       5 | 任务-3             | 2017-01-01 | 2017-01-02 | Description 3    |
++---------+--------------------+------------+------------+------------------+
+4 rows in set (0.00 sec)
 ```
 
