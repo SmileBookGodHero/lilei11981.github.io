@@ -436,6 +436,7 @@ mysql> desc products;
 
 ```mysql
 mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice BETWEEN 90 AND 100;
+mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice>=90 AND buyPrice<=100;
 +-------------+--------------------------------------+----------+
 | productCode | productName                          | buyPrice |
 +-------------+--------------------------------------+----------+
@@ -454,6 +455,7 @@ mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice BETW
 
 ```mysql
 mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice NOT BETWEEN 20 AND 100;
+mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice< 20 OR buyPrice> 100;
 +-------------+-------------------------------------+----------+
 | productCode | productName                         | buyPrice |
 +-------------+-------------------------------------+----------+
@@ -465,25 +467,6 @@ mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice NOT 
 4 rows in set (0.00 sec)
 ```
 
-* 重写上述sql语句
-
-```mysql
-mysql> SELECT
-    ->     productCode, productName, buyPrice
-    -> FROM
-    ->     products
-    -> WHERE
-    ->     buyPrice < 20 OR buyPrice > 100;
-+-------------+-------------------------------------+----------+
-| productCode | productName                         | buyPrice |
-+-------------+-------------------------------------+----------+
-| S10_4962    | 1962 LanciaA Delta 16V              |   103.42 |
-| S18_2238    | 1998 Chrysler Plymouth Prowler      |   101.51 |
-| S24_2840    | 1958 Chevy Corvette Limited Edition |    15.91 |
-| S24_2972    | 1982 Lamborghini Diablo             |    16.24 |
-+-------------+-------------------------------------+----------+
-4 rows in set (0.00 sec)
-```
 
 * 当使用`BETWEEN`运算符与日期类型值时，要获得最佳结果，应该使用类型转换将列或表达式的类型显式转换为DATE类型，要查询获取所需日期(`requiredDate`)从`2013-01-01`到`2013-01-31`的所有订单，请使用以下查询
 
@@ -728,25 +711,16 @@ mysql> SELECT officeCode, city, phone FROM offices WHERE country NOT IN( 'USA', 
 * 查找总金额大于`60000`的订单，则使用`IN`运算符查询如下所示
 
 ```mysql
-mysql> SELECT
-    ->     orderNumber, customerNumber, status, shippedDate
-    -> FROM
-    ->     orders
-    -> WHERE
-    ->     orderNumber IN (SELECT
-    ->             orderNumber
-    ->         FROM
-    ->             orderDetails
-    ->         GROUP BY orderNumber
-    ->         HAVING SUM(quantityOrdered * priceEach) > 60000);
+mysql> SELECT orderNumber,customerNumber,STATUS,shippedDate FROM orders WHERE orderNumber IN (
+    -> SELECT orderNumber FROM orderDetails GROUP BY orderNumber HAVING SUM(quantityOrdered*priceEach)> 60000);
 +-------------+----------------+---------+-------------+
-| orderNumber | customerNumber | status  | shippedDate |
+| orderNumber | customerNumber | STATUS  | shippedDate |
 +-------------+----------------+---------+-------------+
 |       10165 |            148 | Shipped | 2013-12-26  |
 |       10287 |            298 | Shipped | 2014-09-01  |
 |       10310 |            259 | Shipped | 2014-10-18  |
 +-------------+----------------+---------+-------------+
-3 rows in set (0.01 sec)
+3 rows in set (0.00 sec)
 ```
 
 
@@ -843,10 +817,7 @@ mysql> SELECT STATUS,COUNT(*) AS total_number FROM orders GROUP BY STATUS;
 * 要按状态获取所有订单的总金额，可以使用`orderdetails`表连接`orders`表，并使用`SUM`函数计算总金额
 
 ```mysql
-mysql> SELECT STATUS,SUM( quantityOrdered * priceEach ) AS amount
-    -> FROM orders
-    -> INNER JOIN orderdetails USING ( orderNumber )
-    -> GROUP BY STATUS;
+mysql> SELECT STATUS,SUM(quantityOrdered*priceEach) AS amount FROM orders INNER JOIN orderdetails USING (orderNumber) GROUP BY STATUS;
 +------------+------------+
 | STATUS     | amount     |
 +------------+------------+
@@ -863,3 +834,108 @@ mysql> SELECT STATUS,SUM( quantityOrdered * priceEach ) AS amount
 
 
 * 按表达式对行进行分组，获取每年的总销售额
+
+```mysql
+mysql> SELECT YEAR (orderDate) AS YEAR,SUM(quantityOrdered*priceEach) AS total FROM orders INNER JOIN orderdetails USING (orderNumber) WHERE STATUS='Shipped' GROUP BY YEAR (orderDate);
++------+------------+
+| YEAR | total      |
++------+------------+
+| 2013 | 3223095.80 |
+| 2014 | 4300602.99 |
+| 2015 | 1341395.85 |
++------+------------+
+3 rows in set (0.01 sec)
+```
+
+> 在`GROUP BY`子句中使用`DESC`以降序对状态进行排序。我们还可以在`GROUP BY`子句中明确指定`ASC`，按状态对分组进行升序排序
+
+```mysql
+mysql> SELECT STATUS,COUNT(*) FROM orders GROUP BY STATUS DESC;
++------------+----------+
+| STATUS     | COUNT(*) |
++------------+----------+
+| Shipped    |      303 |
+| Resolved   |        4 |
+| On Hold    |        4 |
+| In Process |        6 |
+| Disputed   |        3 |
+| Cancelled  |        6 |
++------------+----------+
+6 rows in set, 1 warning (0.00 sec)
+```
+
+### having 语句
+
+* 可使用HAVING子句过滤`GROUP BY`子句返回的分组。以下查询使用`HAVING`子句来选择`2013`年以后的年销售总额
+
+```mysql
+mysql> SELECT YEAR (orderDate) AS YEAR,SUM(quantityOrdered*priceEach) AS total FROM orders INNER JOIN orderdetails USING (orderNumber) WHERE STATUS='Shipped' GROUP BY YEAR HAVING YEAR> 2013;
++------+------------+
+| YEAR | total      |
++------+------------+
+| 2014 | 4300602.99 |
+| 2015 | 1341395.85 |
++------+------------+
+2 rows in set (0.01 sec)
+```
+
+
+
+
+### create 语句
+
+* 创建一个名为`tasks`的新表
+
+```mysql
+mysql> CREATE TABLE IF NOT EXISTS tasks (task_id INT (11) AUTO_INCREMENT,SUBJECT VARCHAR (45) DEFAULT NULL,start_date DATE DEFAULT NULL,end_date DATE DEFAULT NULL,description VARCHAR (200) DEFAULT NULL,PRIMARY KEY (task_id)) ENGINE=INNODB DEFAULT CHARSET=utf8;
+Query OK, 0 rows affected (0.02 sec)
+```
+
+* 显示表格
+
+```mysql
+mysql> show tables;                                                                                                                                +--------------------+
+| Tables_in_yiibaidb |
++--------------------+
+| customers          |
+| customers_bak      |
+| employees          |
+| items              |
+| offices            |
+| orderdetails       |
+| orders             |
+| payments           |
+| productlines       |
+| products           |
+| tasks              |
+| tokens             |
++--------------------+
+12 rows in set (0.00 sec)
+```
+
+* 删除表格
+
+```mysql
+mysql> drop table if exists tasks;
+Query OK, 0 rows affected (0.02 sec)
+```
+
+### insert 语句
+
+> `INSERT`语句允许您将一行或多行插入到表中
+
+
+
+```mysql
+INSERT INTO table(column1,column2...)
+VALUES (value1,value2,...);
+```
+
+
+
+* 创建一个名为`tasks`的新表来练习`INSERT`语句
+
+```
+
+```
+
