@@ -629,3 +629,237 @@ mysql> SELECT productCode,productName FROM products WHERE productCode LIKE '%$_2
 
 
 
+### in 语句
+
+* `IN`运算符来确定指定列的值是否匹配列表中的值或子查询中的任何值。
+
+```
+SELECT 
+    column1,column2,...
+FROM
+    table_name
+WHERE 
+ (expr|column_1) IN ('value1','value2',...);
+```
+
+
+
+> 可以在WHERE子句中与`IN`运算符一起使用，可使用列或表达式(`expr`)。
+>
+> 列表中的值必须用逗号(`，`)分隔。
+>
+> `IN`操作符也可以用在其他语句(如INSERT、UPDATE、DELETE等)的WHERE子句中。
+> 
+
+
+
+* 如果`column_1`的值或`expr`表达式的结果等于列表中的任何值，则`IN`运算符返回`1`，否则返回`0`。
+
+
+
+> 当列表中的值都是常量时：
+>
+> - 首先，MySQL根据`column_1`的类型或`expr`表达式的结果来计算值。
+> - 第二步，MySQL排序值。
+> - 第三步，MySQL使用二进制搜索算法搜索值。因此，使用具有常量列表的`IN`运算符的查询将执行得非常快。
+>
+> > 请注意，如果列表中的`expr`或任何值为`NULL`，则`IN`运算符计算结果返回`NULL`。
+>
+> 可以将`IN`运算符与`NOT`运算符组合，以确定值是否与列表或子查询中的任何值不匹配。
+
+
+
+* 查找位于美国和法国的办事处，可以使用`IN`运算符作为以下查询
+
+
+
+```mysql
+mysql> SELECT officeCode, city, phone, country FROM offices WHERE country IN ('USA' , 'France');
++------------+---------------+-----------------+---------+
+| officeCode | city          | phone           | country |
++------------+---------------+-----------------+---------+
+| 1          | San Francisco | +1 650 219 4782 | USA     |
+| 2          | Boston        | +1 215 837 0825 | USA     |
+| 3          | NYC           | +1 212 555 3000 | USA     |
+| 4          | Paris         | +33 14 723 4404 | France  |
++------------+---------------+-----------------+---------+
+4 rows in set (0.01 sec)
+```
+
+* 也可以使用`OR`运算符执行得到与上面查询相同的结果
+
+
+
+```mysql
+mysql> SELECT officeCode, city, phone FROM offices WHERE country = 'USA' OR country = 'France';
++------------+---------------+-----------------+
+| officeCode | city          | phone           |
++------------+---------------+-----------------+
+| 1          | San Francisco | +1 650 219 4782 |
+| 2          | Boston        | +1 215 837 0825 |
+| 3          | NYC           | +1 212 555 3000 |
+| 4          | Paris         | +33 14 723 4404 |
++------------+---------------+-----------------+
+4 rows in set (0.00 sec)
+```
+
+
+
+> 如果列表中有很多值，使用多个`OR`运算符则会构造一个非常长的语句。 因此，使用`IN`运算符则会缩短查询并使查询更易读。
+
+
+
+* 要获得不在美国和法国的办事处，请在`WHERE`子句中使用`NOT IN`
+
+``` mysql
+mysql> SELECT officeCode, city, phone FROM offices WHERE country NOT IN( 'USA', 'France');
++------------+---------+------------------+
+| officeCode | city    | phone            |
++------------+---------+------------------+
+| 5          | Beijing | +86 33 224 5000  |
+| 6          | Sydney  | +61 2 9264 2451  |
+| 7          | London  | +44 20 7877 2041 |
++------------+---------+------------------+
+3 rows in set (0.00 sec)
+```
+
+
+
+* 查找总金额大于`60000`的订单，则使用`IN`运算符查询如下所示
+
+```mysql
+mysql> SELECT
+    ->     orderNumber, customerNumber, status, shippedDate
+    -> FROM
+    ->     orders
+    -> WHERE
+    ->     orderNumber IN (SELECT
+    ->             orderNumber
+    ->         FROM
+    ->             orderDetails
+    ->         GROUP BY orderNumber
+    ->         HAVING SUM(quantityOrdered * priceEach) > 60000);
++-------------+----------------+---------+-------------+
+| orderNumber | customerNumber | status  | shippedDate |
++-------------+----------------+---------+-------------+
+|       10165 |            148 | Shipped | 2013-12-26  |
+|       10287 |            298 | Shipped | 2014-09-01  |
+|       10310 |            259 | Shipped | 2014-10-18  |
++-------------+----------------+---------+-------------+
+3 rows in set (0.01 sec)
+```
+
+
+
+### group by 语句
+
+* `GROUP BY`子句通过列或表达式的值将一组行分组为一个小分组的汇总行记录。 `GROUP BY`子句为每个分组返回一行。换句话说，它减少了结果集中的行数。
+
+> `GROUP BY`子句必须出现在`FROM`和`WHERE`子句之后。 在`GROUP BY`关键字之后是一个以逗号分隔的列或表达式的列表，这些是要用作为条件来对行进行分组。
+>
+> 经常使用GROUP BY子句与聚合函数一起使用，如SUM，AVG，MAX，MIN和COUNT。SELECT子句中使用聚合函数来计算有关每个分组的信息
+
+
+
+```mysql
+SELECT 
+    c1, c2,..., cn, aggregate_function(ci)
+FROM
+    table
+WHERE
+    where_conditions
+GROUP BY c1 , c2,...,cn;
+```
+
+
+
+* 要将订单状态的值分组到子组中，则要使用`GROUP BY`子句并指定按`status`列来执行分组
+
+
+
+```mysql
+mysql> SELECT STATUS FROM orders GROUP BY STATUS;
++------------+
+| STATUS     |
++------------+
+| Cancelled  |
+| Disputed   |
+| In Process |
+| On Hold    |
+| Resolved   |
+| Shipped    |
++------------+
+6 rows in set (0.00 sec)
+```
+
+
+
+* `GROUP BY`子句返回状态(`status`)值是唯一的，它像`DISTINCT`运算符一样工作，`GROUP BY`按字母表顺序排序，`DISTINCT`不排序
+
+
+
+```mysql
+mysql> SELECT DISTINCT STATUS FROM orders;
++------------+
+| STATUS     |
++------------+
+| Shipped    |
+| Resolved   |
+| Cancelled  |
+| On Hold    |
+| Disputed   |
+| In Process |
++------------+
+6 rows in set (0.00 sec)
+```
+
+
+
+> 可使用聚合函数来执行一组行的计算并返回单个值。`GROUP BY`子句通常与聚合函数一起使用以执行计算每个分组并返回单个值。
+
+
+
+* 如果想知道每个状态中的订单数，可以使用`COUNT`函数与`GROUP BY`子句查询语句
+
+
+
+```mysql
+mysql> SELECT STATUS,COUNT(*) AS total_number FROM orders GROUP BY STATUS;
++------------+--------------+
+| STATUS     | total_number |
++------------+--------------+
+| Cancelled  |            6 |
+| Disputed   |            3 |
+| In Process |            6 |
+| On Hold    |            4 |
+| Resolved   |            4 |
+| Shipped    |          303 |
++------------+--------------+
+6 rows in set (0.00 sec)
+```
+
+
+
+* 要按状态获取所有订单的总金额，可以使用`orderdetails`表连接`orders`表，并使用`SUM`函数计算总金额
+
+```mysql
+mysql> SELECT STATUS,SUM( quantityOrdered * priceEach ) AS amount
+    -> FROM orders
+    -> INNER JOIN orderdetails USING ( orderNumber )
+    -> GROUP BY STATUS;
++------------+------------+
+| STATUS     | amount     |
++------------+------------+
+| Cancelled  |  238854.18 |
+| Disputed   |   61158.78 |
+| In Process |  135271.52 |
+| On Hold    |  169575.61 |
+| Resolved   |  134235.88 |
+| Shipped    | 8865094.64 |
++------------+------------+
+6 rows in set (0.01 sec)
+```
+
+
+
+* 按表达式对行进行分组，获取每年的总销售额
