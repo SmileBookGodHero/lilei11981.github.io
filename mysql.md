@@ -221,7 +221,7 @@ mysql> select city,phone,country from `offices`;
 
 
 
-### ### 查询语句
+### 查询语句
 
 ```mysql
 SELECT 
@@ -408,5 +408,94 @@ mysql> SELECT lastname, firstname, officeCode FROM employees WHERE officecode > 
 | King      | Tom       | 6          |
 +-----------+-----------+------------+
 6 rows in set (0.00 sec)
+```
+
+### between 语句
+
+* 查看表接口
+
+```mysql
+mysql> desc products;
++--------------------+---------------+------+-----+---------+-------+
+| Field              | Type          | Null | Key | Default | Extra |
++--------------------+---------------+------+-----+---------+-------+
+| productCode        | varchar(15)   | NO   | PRI |         |       |
+| productName        | varchar(70)   | NO   |     | NULL    |       |
+| productLine        | varchar(50)   | NO   | MUL | NULL    |       |
+| productScale       | varchar(10)   | NO   |     | NULL    |       |
+| productVendor      | varchar(50)   | NO   |     | NULL    |       |
+| productDescription | text          | NO   |     | NULL    |       |
+| quantityInStock    | smallint(6)   | NO   |     | NULL    |       |
+| buyPrice           | decimal(10,2) | NO   |     | NULL    |       |
+| MSRP               | decimal(10,2) | NO   |     | NULL    |       |
++--------------------+---------------+------+-----+---------+-------+
+9 rows in set (0.03 sec)
+```
+
+* 查找价格在`90`和`100`(含`90`和`100`)元范围内的商品，也可以通过使用大于或等于(`>=`)和小于或等于(`<=`)运算符来实现相同的结果
+
+```mysql
+mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice BETWEEN 90 AND 100;
++-------------+--------------------------------------+----------+
+| productCode | productName                          | buyPrice |
++-------------+--------------------------------------+----------+
+| S10_1949    | 1952 Alpine Renault 1300             |    98.58 |
+| S10_4698    | 2003 Harley-Davidson Eagle Drag Bike |    91.02 |
+| S12_1099    | 1968 Ford Mustang                    |    95.34 |
+| S12_1108    | 2001 Ferrari Enzo                    |    95.59 |
+| S18_1984    | 1995 Honda Civic                     |    93.89 |
+| S18_4027    | 1970 Triumph Spitfire                |    91.92 |
+| S24_3856    | 1956 Porsche 356A Coupe              |    98.30 |
++-------------+--------------------------------------+----------+
+7 rows in set (0.00 sec)
+```
+
+* 查找购买价格不在`20`到`100`(含`20`到`100`)之间的产品
+
+```mysql
+mysql> SELECT productCode,productName,buyPrice FROM products WHERE buyPrice NOT BETWEEN 20 AND 100;
++-------------+-------------------------------------+----------+
+| productCode | productName                         | buyPrice |
++-------------+-------------------------------------+----------+
+| S10_4962    | 1962 LanciaA Delta 16V              |   103.42 |
+| S18_2238    | 1998 Chrysler Plymouth Prowler      |   101.51 |
+| S24_2840    | 1958 Chevy Corvette Limited Edition |    15.91 |
+| S24_2972    | 1982 Lamborghini Diablo             |    16.24 |
++-------------+-------------------------------------+----------+
+4 rows in set (0.00 sec)
+```
+
+* 重写上述sql语句
+
+```mysql
+mysql> SELECT
+    ->     productCode, productName, buyPrice
+    -> FROM
+    ->     products
+    -> WHERE
+    ->     buyPrice < 20 OR buyPrice > 100;
++-------------+-------------------------------------+----------+
+| productCode | productName                         | buyPrice |
++-------------+-------------------------------------+----------+
+| S10_4962    | 1962 LanciaA Delta 16V              |   103.42 |
+| S18_2238    | 1998 Chrysler Plymouth Prowler      |   101.51 |
+| S24_2840    | 1958 Chevy Corvette Limited Edition |    15.91 |
+| S24_2972    | 1982 Lamborghini Diablo             |    16.24 |
++-------------+-------------------------------------+----------+
+4 rows in set (0.00 sec)
+```
+
+* 当使用`BETWEEN`运算符与日期类型值时，要获得最佳结果，应该使用类型转换将列或表达式的类型显式转换为DATE类型，要查询获取所需日期(`requiredDate`)从`2013-01-01`到`2013-01-31`的所有订单，请使用以下查询
+
+```mysql
+mysql> SELECT orderNumber,requiredDate,STATUS FROM orders WHERE requireddate BETWEEN CAST('2013-01-01' AS DATE) AND CAST('2013-01-31' AS DATE);
++-------------+--------------+---------+
+| orderNumber | requiredDate | STATUS  |
++-------------+--------------+---------+
+|       10100 | 2013-01-13   | Shipped |
+|       10101 | 2013-01-18   | Shipped |
+|       10102 | 2013-01-18   | Shipped |
++-------------+--------------+---------+
+3 rows in set (0.00 sec)
 ```
 
