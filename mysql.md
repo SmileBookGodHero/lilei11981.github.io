@@ -4,7 +4,7 @@
 
 * 安装mysql
 
-```
+```mysql
 $ brew install mysql
 
 ==> Downloading https://homebrew.bintray.com/bottles/mysql-5.7.21.high_sierra.bottle.tar.gz
@@ -29,7 +29,7 @@ Or, if you don't want/need a background service you can just run:
 
 * 启动mysql服务
 
-```
+```mysql
 $ mysql.server start
 
 Starting MySQL
@@ -38,7 +38,7 @@ Starting MySQL
 
 * mysql安装基本配置
 
-```
+```mysql
 $ mysql_secure_installation
 
 Securing the MySQL server deployment.
@@ -118,7 +118,7 @@ All done!
 
 * 测试登陆mysql
 
-```
+```mysql
 $ mysql -u root -p
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -134,6 +134,15 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> 
+```
+
+
+
+* 退出mysql
+
+```mysql
+mysql> quit
+Bye
 ```
 
 
