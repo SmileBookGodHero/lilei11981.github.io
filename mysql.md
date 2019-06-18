@@ -118,14 +118,14 @@ All done!
 
 * 测试登陆mysql
 
-```mysql
+``` mysql
 $ mysql -u root -p
-Enter password: 
+Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 4
-Server version: 5.7.21 Homebrew
+Server version: 5.7.25 Homebrew
 
-Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
 
 Oracle is a registered trademark of Oracle Corporation and/or its
 affiliates. Other names may be trademarks of their respective
@@ -140,14 +140,14 @@ mysql>
 
 * 退出mysql
 
-```mysql
+``` mysql
 mysql> quit
 Bye
 ```
 
 * **查看MySQL提供的所有存储引擎**
 
-```mysql
+``` mysql
 mysql> show engines;
 +--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
 | Engine             | Support | Comment                                                        | Transactions | XA   | Savepoints |
