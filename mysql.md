@@ -499,3 +499,133 @@ mysql> SELECT orderNumber,requiredDate,STATUS FROM orders WHERE requireddate BET
 3 rows in set (0.00 sec)
 ```
 
+### like 语句
+
+* `LIKE`操作符通常用于基于模式查询选择数据。以正确的方式使用`LIKE`运算符对于增加/减少查询性能至关重要。MySQL提供两个通配符，用于与`LIKE`运算符一起使用，它们分别是：百分比符号 - `%`和下划线 - `_`。
+    - 百分比(`%`)通配符允许匹配任何字符串的零个或多个字符。
+    - 下划线(`_`)通配符允许匹配任何单个字符。
+
+* 搜索名字以字符`a`开头的员工信息，可以在模式末尾使用百分比通配符(`％`)
+
+```mysql
+mysql> SELECT employeeNumber,lastName,firstName FROM employees WHERE firstName LIKE 'a%';
++----------------+----------+-----------+
+| employeeNumber | lastName | firstName |
++----------------+----------+-----------+
+|           1143 | Bow      | Anthony   |
+|           1611 | Fixter   | Andy      |
++----------------+----------+-----------+
+2 rows in set (0.00 sec)
+```
+
+* 搜索员工以`on`字符结尾的姓氏，可以使用模式开头的`％`通配符
+
+```mysql
+mysql> SELECT employeeNumber,lastName,firstName FROM employees WHERE lastName LIKE '%on';
++----------------+-----------+-----------+
+| employeeNumber | lastName  | firstName |
++----------------+-----------+-----------+
+|           1056 | Patterson | Mary      |
+|           1088 | Patterson | William   |
+|           1166 | Thompson  | Leslie    |
+|           1216 | Patterson | Steve     |
++----------------+-----------+-----------+
+4 rows in set (0.00 sec)
+```
+
+* 查找 `lastname` 字段值中包含`on`字符串的所有员工，可使用带有`%on%`条件
+
+```mysql
+mysql> SELECT employeeNumber,lastName,firstName FROM employees WHERE lastname LIKE '%on%';
++----------------+-----------+-----------+
+| employeeNumber | lastName  | firstName |
++----------------+-----------+-----------+
+|           1056 | Patterson | Mary      |
+|           1088 | Patterson | William   |
+|           1102 | Bondur    | Gerard    |
+|           1166 | Thompson  | Leslie    |
+|           1216 | Patterson | Steve     |
+|           1337 | Bondur    | Loui      |
+|           1504 | Jones     | Barry     |
++----------------+-----------+-----------+
+7 rows in set (0.00 sec)
+```
+
+* 要查找名字以`T`开头的员工，以`m`结尾，并且包含例如`Tom`，`Tim`之间的任何单个字符，可以使用下划线通配符来构建模式
+
+```mysql
+mysql> SELECT employeeNumber,lastName,firstName FROM employees WHERE firstname LIKE 'T_m';
++----------------+----------+-----------+
+| employeeNumber | lastName | firstName |
++----------------+----------+-----------+
+|           1619 | King     | Tom       |
++----------------+----------+-----------+
+1 row in set (0.00 sec)
+```
+
+* 搜索姓氏(`lastname`)不以字符`B`开头的员工，则可以使用`NOT LIKE`作为以下查询
+
+```mysql
+mysql> SELECT employeeNumber,lastName,firstName FROM employees WHERE lastName NOT LIKE 'B%';
++----------------+-----------+-----------+
+| employeeNumber | lastName  | firstName |
++----------------+-----------+-----------+
+|           1002 | Murphy    | Diane     |
+|           1056 | Patterson | Mary      |
+|           1076 | Firrelli  | Jeff      |
+|           1088 | Patterson | William   |
+|           1165 | Jennings  | Leslie    |
+|           1166 | Thompson  | Leslie    |
+|           1188 | Firrelli  | Julie     |
+|           1216 | Patterson | Steve     |
+|           1286 | Tseng     | Foon Yue  |
+|           1323 | Vanauf    | George    |
+|           1370 | Hernandez | Gerard    |
+|           1401 | Castillo  | Pamela    |
+|           1504 | Jones     | Barry     |
+|           1611 | Fixter    | Andy      |
+|           1612 | Marsh     | Peter     |
+|           1619 | King      | Tom       |
+|           1621 | Nishi     | Mami      |
+|           1625 | Kato      | Yoshimi   |
+|           1702 | Gerard    | Martin    |
++----------------+-----------+-----------+
+19 rows in set (0.00 sec)
+```
+
+* 查询`productCode`字段中包含`_20`字符串的值
+
+```mysql
+mysql> SELECT productCode,productName FROM products WHERE productCode LIKE '%\_20%';
++-------------+-------------------------------------------+
+| productCode | productName                               |
++-------------+-------------------------------------------+
+| S10_2016    | 1996 Moto Guzzi 1100i                     |
+| S24_2000    | 1960 BSA Gold Star DBD34                  |
+| S24_2011    | 18th century schooner                     |
+| S24_2022    | 1938 Cadillac V-16 Presidential Limousine |
+| S700_2047   | HMS Bounty                                |
++-------------+-------------------------------------------+
+5 rows in set (0.00 sec)
+```
+
+* 模式`%$_20%`匹配任何包含`_20`字符串的字符串
+
+```mysql
+mysql> SELECT productCode,productName FROM products WHERE productCode LIKE '%$_20%' ESCAPE '$';
++-------------+-------------------------------------------+
+| productCode | productName                               |
++-------------+-------------------------------------------+
+| S10_2016    | 1996 Moto Guzzi 1100i                     |
+| S24_2000    | 1960 BSA Gold Star DBD34                  |
+| S24_2011    | 18th century schooner                     |
+| S24_2022    | 1938 Cadillac V-16 Presidential Limousine |
+| S700_2047   | HMS Bounty                                |
++-------------+-------------------------------------------+
+5 rows in set (0.00 sec)
+```
+
+> `LIKE`操作符强制MySQL扫描整个表以找到匹配的行记录，因此，它不允许数据库引擎使用索引进行快速搜索。因此，当要从具有大量行的表查询数据时，使用`LIKE`运算符来查询数据的性能会大幅降低。
+
+
+
