@@ -221,7 +221,7 @@ mysql> select city,phone,country from `offices`;
 
 
 
-### ### select 查询语句
+### ### 查询语句
 
 ```mysql
 SELECT 
@@ -249,6 +249,8 @@ LIMIT offset, length;
 - `LIMIT`限制返回行的数量。
 
 语句中的`SELECT`和`FROM`语句是必须的，其他部分是可选的。
+
+### select 语句
 
 ```mysql
 mysql> SELECT lastname, firstname, jobtitle FROM employees;
@@ -321,4 +323,90 @@ mysql> SELECT * FROM employees;
 - 使用星号(`*`)可能会返回不使用的列的数据。 它在MySQL数据库服务器和应用程序之间产生不必要的*I/O*磁盘和网络流量。
 - 如果明确指定列，则结果集更可预测并且更易于管理。 想象一下，当您使用星号(`*`)并且有人通过添加更多列来更改表格数据时，将会得到一个与预期不同的结果集。
 - 使用星号(`*`)可能会将敏感信息暴露给未经授权的用户。
+
+### where 语句
+
+* 想从`employees`表中获取销售代表员工
+
+```mysql
+mysql> SELECT lastname, firstname, jobtitle FROM employees WHERE jobtitle = 'Sales Rep';
++-----------+-----------+-----------+
+| lastname  | firstname | jobtitle  |
++-----------+-----------+-----------+
+| Jennings  | Leslie    | Sales Rep |
+| Thompson  | Leslie    | Sales Rep |
+| Firrelli  | Julie     | Sales Rep |
+| Patterson | Steve     | Sales Rep |
+| Tseng     | Foon Yue  | Sales Rep |
+| Vanauf    | George    | Sales Rep |
+| Bondur    | Loui      | Sales Rep |
+| Hernandez | Gerard    | Sales Rep |
+| Castillo  | Pamela    | Sales Rep |
+| Bott      | Larry     | Sales Rep |
+| Jones     | Barry     | Sales Rep |
+| Fixter    | Andy      | Sales Rep |
+| Marsh     | Peter     | Sales Rep |
+| King      | Tom       | Sales Rep |
+| Nishi     | Mami      | Sales Rep |
+| Kato      | Yoshimi   | Sales Rep |
+| Gerard    | Martin    | Sales Rep |
++-----------+-----------+-----------+
+17 rows in set (0.03 sec)
+```
+
+* 将多个表达式与逻辑运算符(如AND，OR等)组合在一起的一个非常复杂的例子，要在办公室代码(`officeCode`)等于`1`中查找所有销售代表
+
+```mysql
+mysql> SELECT lastname, firstname, jobtitle FROM employees WHERE jobtitle = 'Sales Rep' AND officeCode = 1;
++----------+-----------+-----------+
+| lastname | firstname | jobtitle  |
++----------+-----------+-----------+
+| Jennings | Leslie    | Sales Rep |
+| Thompson | Leslie    | Sales Rep |
++----------+-----------+-----------+
+2 rows in set (0.02 sec)
+```
+
+* 可用于在`WHERE`子句中形成过滤表达式的比较运算符
+
+| 操作符       | 描述                                          |
+| ------------ | --------------------------------------------- |
+| `=`          | 等于，几乎任何数据类型都可以使用它。          |
+| `<>` 或 `!=` | 不等于                                        |
+| `<=`         | 小于或等于，通常使用数字和日期/时间数据类型。 |
+| `>=`         | 小于或等于，通常使用数字和日期/时间数据类型。 |
+
+* 使用不等于(`!=`)运算符来获取不是销售代表的其它所有员工
+
+```mysql
+mysql> SELECT lastname, firstname, jobtitle FROM employees WHERE jobtitle <> 'Sales Rep';
++-----------+-----------+----------------------+
+| lastname  | firstname | jobtitle             |
++-----------+-----------+----------------------+
+| Murphy    | Diane     | President            |
+| Patterson | Mary      | VP Sales             |
+| Firrelli  | Jeff      | VP Marketing         |
+| Patterson | William   | Sales Manager (APAC) |
+| Bondur    | Gerard    | Sale Manager (EMEA)  |
+| Bow       | Anthony   | Sales Manager (NA)   |
++-----------+-----------+----------------------+
+6 rows in set (0.00 sec)
+```
+
+* 查询办公室代码大于`5`的每位员工
+
+```mysql
+mysql> SELECT lastname, firstname, officeCode FROM employees WHERE officecode > 5;
++-----------+-----------+------------+
+| lastname  | firstname | officeCode |
++-----------+-----------+------------+
+| Patterson | William   | 6          |
+| Bott      | Larry     | 7          |
+| Jones     | Barry     | 7          |
+| Fixter    | Andy      | 6          |
+| Marsh     | Peter     | 6          |
+| King      | Tom       | 6          |
++-----------+-----------+------------+
+6 rows in set (0.00 sec)
+```
 
