@@ -1093,7 +1093,7 @@ mysql> SELECT firstname,lastname,email FROM employees WHERE employeeNumber=1056;
 
 ### delete 语句
 
-```
+```mysql
 DELETE FROM table_name
 WHERE condition;
 ```
