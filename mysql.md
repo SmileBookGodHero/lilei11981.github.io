@@ -180,11 +180,62 @@ mysql> show databases;
 | mysql              |
 | performance_schema |
 | sys                |
+| yiibaidb           |
 +--------------------+
-7 rows in set (0.07 sec)
+7 rows in set (0.03 sec)
 ```
 
+* 查看库中的表格
 
+```mysql
+mysql> use yiibaidb;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables;
++--------------------+
+| Tables_in_yiibaidb |
++--------------------+
+| customers          |
+| customers_bak      |
+| employees          |
+| items              |
+| offices            |
+| orderdetails       |
+| orders             |
+| payments           |
+| productlines       |
+| products           |
+| tasks              |
+| tasks_bak          |
+| tokens             |
++--------------------+
+13 rows in set (0.00 sec)
+```
+
+* 查看表结构
+
+```mysql
+mysql> describe products;
+mysql> show columns from products;
+mysql> show create table products;
+mysql> desc products;
++--------------------+---------------+------+-----+---------+-------+
+| Field              | Type          | Null | Key | Default | Extra |
++--------------------+---------------+------+-----+---------+-------+
+| productCode        | varchar(15)   | NO   | PRI |         |       |
+| productName        | varchar(70)   | NO   |     | NULL    |       |
+| productLine        | varchar(50)   | NO   | MUL | NULL    |       |
+| productScale       | varchar(10)   | NO   |     | NULL    |       |
+| productVendor      | varchar(50)   | NO   |     | NULL    |       |
+| productDescription | text          | NO   |     | NULL    |       |
+| quantityInStock    | smallint(6)   | NO   |     | NULL    |       |
+| buyPrice           | decimal(10,2) | NO   |     | NULL    |       |
+| MSRP               | decimal(10,2) | NO   |     | NULL    |       |
++--------------------+---------------+------+-----+---------+-------+
+9 rows in set (0.03 sec)
+```
 
 * 创建数据库并导入数据
 
@@ -411,26 +462,6 @@ mysql> SELECT lastname, firstname, officeCode FROM employees WHERE officecode > 
 ```
 
 ### between 语句
-
-* 查看表接口
-
-```mysql
-mysql> desc products;
-+--------------------+---------------+------+-----+---------+-------+
-| Field              | Type          | Null | Key | Default | Extra |
-+--------------------+---------------+------+-----+---------+-------+
-| productCode        | varchar(15)   | NO   | PRI |         |       |
-| productName        | varchar(70)   | NO   |     | NULL    |       |
-| productLine        | varchar(50)   | NO   | MUL | NULL    |       |
-| productScale       | varchar(10)   | NO   |     | NULL    |       |
-| productVendor      | varchar(50)   | NO   |     | NULL    |       |
-| productDescription | text          | NO   |     | NULL    |       |
-| quantityInStock    | smallint(6)   | NO   |     | NULL    |       |
-| buyPrice           | decimal(10,2) | NO   |     | NULL    |       |
-| MSRP               | decimal(10,2) | NO   |     | NULL    |       |
-+--------------------+---------------+------+-----+---------+-------+
-9 rows in set (0.03 sec)
-```
 
 * 查找价格在`90`和`100`(含`90`和`100`)元范围内的商品，也可以通过使用大于或等于(`>=`)和小于或等于(`<=`)运算符来实现相同的结果
 
@@ -711,8 +742,7 @@ mysql> SELECT officeCode, city, phone FROM offices WHERE country NOT IN( 'USA', 
 * 查找总金额大于`60000`的订单，则使用`IN`运算符查询如下所示
 
 ```mysql
-mysql> SELECT orderNumber,customerNumber,STATUS,shippedDate FROM orders WHERE orderNumber IN (
-    -> SELECT orderNumber FROM orderDetails GROUP BY orderNumber HAVING SUM(quantityOrdered*priceEach)> 60000);
+mysql> SELECT orderNumber,customerNumber,STATUS,shippedDate FROM orders WHERE orderNumber IN (SELECT orderNumber FROM orderDetails GROUP BY orderNumber HAVING SUM(quantityOrdered*priceEach)> 60000);
 +-------------+----------------+---------+-------------+
 | orderNumber | customerNumber | STATUS  | shippedDate |
 +-------------+----------------+---------+-------------+
