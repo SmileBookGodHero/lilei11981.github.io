@@ -998,3 +998,88 @@ mysql> SELECT*FROM tasks_bak;
 4 rows in set (0.00 sec)
 ```
 
+### update 语句
+
+* 我们使用`UPDATE`语句来更新表中的现有数据。也可以使用`UPDATE`语句来更改表中单个行，一组行或所有行的列值
+
+```mysql
+UPDATE [LOW_PRIORITY] [IGNORE] table_name 
+SET 
+    column_name1 = expr1,
+    column_name2 = expr2,
+    ...
+WHERE
+    condition;
+```
+
+在上面`UPDATE`语句中：
+
+- 首先，在`UPDATE`关键字后面指定要更新数据的表名。
+- 其次，`SET`子句指定要修改的列和新值。要更新多个列，请使用以逗号分隔的列表。以字面值，表达式或`子查询`的形式在每列的赋值中来提供要设置的值。
+- 第三，使用`WHERE子句`中的条件指定要更新的行。`WHERE`子句是可选的。 如果省略`WHERE`子句，则`UPDATE`语句将更新表中的所有行。
+
+请注意，`WHERE`子句非常重要，所以不应该忘记指定更新的条件。 有时，您可能只想改变一行; 但是，可能会忘记写上`WHERE`子句，导致意外更新表中的所有行。
+
+MySQL在`UPDATE`语句中支持两个修饰符。
+
+- `LOW_PRIORITY`修饰符指示`UPDATE`语句延迟更新，直到没有从表中读取数据的连接。 `LOW_PRIORITY`对仅使用表级锁定的**存储引擎**(例如*MyISAM*，*MERGE*，*MEMORY*)生效。
+- 即使发生错误，*IGNORE*修饰符也可以使*UPDATE*语句继续更新行。导致错误(如重复键冲突)的行不会更新。
+
+
+
+* 从`employees`表查询`Mary`的电子邮件
+
+```mysql
+mysql> SELECT firstname,lastname,email FROM employees WHERE employeeNumber=1056;
++-----------+-----------+----------------------+
+| firstname | lastname  | email                |
++-----------+-----------+----------------------+
+| Mary      | Patterson | mpatterso@yiibai.com |
++-----------+-----------+----------------------+
+1 row in set (0.01 sec)
+```
+
+
+
+* 使用`UPDATE`语句将`Mary`的电子邮件更新为新的电子邮件
+
+```mysql
+mysql> UPDATE employees SET email='mary.new@yiibai.com' WHERE employeeNumber=1056;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+```
+
+* 再次执行`SELECT`语句来验证更改
+
+```mysql
+mysql> SELECT firstname,lastname,email FROM employees WHERE employeeNumber=1056;
++-----------+-----------+---------------------+
+| firstname | lastname  | email               |
++-----------+-----------+---------------------+
+| Mary      | Patterson | mary.new@yiibai.com |
++-----------+-----------+---------------------+
+1 row in set (0.00 sec)
+```
+
+### delete 语句
+
+```
+DELETE FROM table_name
+WHERE condition;
+```
+
+
+
+> 首先，指定删除数据的表(`table_name`)。
+>
+> 其次，使用条件来指定要在`WHERE`子句中删除的行记录。如果行匹配条件，这些行记录将被删除。
+>
+> 请注意，`WHERE`子句是可选的。如果省略`WHERE`子句，`DELETE`语句将删除表中的所有行。
+
+
+
+
+
+
+
+
