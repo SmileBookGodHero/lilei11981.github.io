@@ -1133,3 +1133,21 @@ RENAME TABLE old_table_name TO new_table_name;
 
 * 旧表(`old_table_name`)必须存在，新表(`new_table_name`)必须不存在。 如果新表`new_table_name`存在，则该语句将失败。
 * 在重命名表之前，应该彻底地评估影响。 
+
+
+
+### union 语句
+
+* 使用`UNION`运算符组合每个`SELECT`语句返回的结果集
+
+```mysql
+mysql> SELECT 'customers' tablename,COUNT(*) rows FROM customers UNION SELECT 'orders' tablename,COUNT(*) rows FROM orders;
++-----------+------+
+| tablename | rows |
++-----------+------+
+| customers |  122 |
+| orders    |  326 |
++-----------+------+
+2 rows in set (0.00 sec)
+```
+
