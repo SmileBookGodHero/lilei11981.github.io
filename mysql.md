@@ -1108,8 +1108,28 @@ WHERE condition;
 
 
 
+### alter 语句
+
+* 可以使用`ALTER TABLE`语句来更改现有表的结构。 `ALTER TABLE`语句可用来添加列，删除列，更改列的数据类型，添加主键，重命名表等等。 
+* 在任务表中插入新行时，`task_id`列的值会自动增加`1`。那么可以使用`ALTER TABLE`语句将`task_id`列的属性设置为`AUTO_INCREMENT`
+
+```mysql
+mysql> ALTER TABLE tasks CHANGE COLUMN task_id task_id INT (11) NOT NULL AUTO_INCREMENT;
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+```
 
 
 
+### rename 语句
+
+* 要更改一个或多个表，我们使用`RENAME TABLE`语句
+
+```mysql
+RENAME TABLE old_table_name TO new_table_name;
+```
 
 
+
+* 旧表(`old_table_name`)必须存在，新表(`new_table_name`)必须不存在。 如果新表`new_table_name`存在，则该语句将失败。
+* 在重命名表之前，应该彻底地评估影响。 
