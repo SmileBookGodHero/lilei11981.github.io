@@ -1,4 +1,4 @@
-## linux
+# linux
 
 -----
 ### Mac 常用指令
