@@ -1,4 +1,4 @@
-# 常用Git命令清单：
+# git
 
 ----
 ## 常用命令组合
@@ -27,7 +27,6 @@ $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
 - $ git init （初始化 .git 文件）
 - $ git remote add origin + 自己仓库的地址（在 .git 中增加自己的 origin 的链接）
 - $ git pull origin master（与自己的项目同步）
-
 
 ----
 ### 提交代码常用

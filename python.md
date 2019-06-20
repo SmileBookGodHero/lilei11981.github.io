@@ -1,4 +1,4 @@
-## Python教程
+## python
 -----
 
 ### Python基础
