@@ -22,6 +22,15 @@ $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
 
 ---
 
+### 使用ssh方式与远程GitHub仓库进行交互
+
+> 便于免密提交
+
+* 执行```ssh-keygen -t rsa -C 1198189741@qq.com```命令，生成RSA公私钥对
+* 复制```id_dsa.pub```文件内容到GitHub
+
+---
+
 ### 删除仓库中已经存在的特定文件
 
 * 在```.gitignore```文件中添加文件标识
