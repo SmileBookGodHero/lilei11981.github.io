@@ -11,12 +11,22 @@ $ git config [--global] user.name "[name]"
 $ git config [--global] user.email "[email address]"
 $ git commit --amend--reset-author
 ```
------
+
+---
+
 ### 本地创建远程仓库
 
 ``` bash
 $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
 ```
+
+---
+
+### 删除仓库中已经存在的特定文件
+
+* 在```.gitignore```文件中添加文件标识
+* 执行```git rm -r --cached .```命令
+
 -------
 ### 把别人的项目加入到自己的项目中
 - $ 在 github 上新建一个 "HelloWorld" 仓库
