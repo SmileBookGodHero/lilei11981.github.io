@@ -13,6 +13,16 @@ $ sudo killall -HUP mDNSResponder
 $ pandoc Markdown.md -o Markdown.docx
 ```
 
+* 把bash转为zsh
+``` bash
+$ chsh -s /bin/zsh
+```
+
+* 把zsh转为bash
+``` zsh
+% chsh -s /bin/bash
+```
+
 -----
 ### Homebrew常用指令
 
