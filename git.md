@@ -33,6 +33,8 @@ $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
 
 ### 删除仓库中已经存在的特定文件
 
+> 使得加入忽略文件后，不再提交版本库
+
 * 在```.gitignore```文件中添加文件标识
 * 执行```git rm -r --cached .```命令
 
@@ -46,6 +48,43 @@ $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
 - $ git init （初始化 .git 文件）
 - $ git remote add origin + 自己仓库的地址（在 .git 中增加自己的 origin 的链接）
 - $ git pull origin master（与自己的项目同步）
+
+---
+### 删除曾经提交到版本库中的大文件
+
+> .git文件夹占用了大量的空间
+
+* 查看哪个目录占用的空间较大
+
+``` bash
+$ du -d 1 -h
+```
+
+* 查看哪些历史提交过的文件占用空间比较大
+
+``` bash
+$ git rev-list --objects --all | grep "$(git verify-pack -v .git/objects/pack/*.idx | sort -k 3 -n | tail -5 | awk '{print$1}')"
+```
+
+* 重写提交，删除大文件
+
+``` bash
+$ git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch big-file.jar' --prune-empty --tag-name-filter cat -- --all
+```
+
+* 强制推送本地仓库到远程
+
+``` bash
+$ git push origin master --force
+```
+
+* 清理和回收空间
+
+``` bash
+$ rm -rf .git/refs/original/
+$ git reflog expire --expire=now --all
+$ git gc --prune=now
+```
 
 ----
 ### 提交代码常用
