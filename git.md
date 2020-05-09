@@ -38,6 +38,40 @@ $ curl -u 'lilei11981' https://api.gitub.com/user/repos/  -d '{"name":"test"}'
 * 在```.gitignore```文件中添加文件标识
 * 执行```git rm -r --cached .```命令
 
+---
+
+### 删除没有git add的文件（没有被追踪的文件untracked files）
+
+* 显示将要删除的文件和目录
+
+``` bash
+$ git clean -n
+```
+
+* 删除文件
+
+``` bash
+$ git clean -f
+```
+
+* 删除文件和目录
+
+``` bash
+$ git clean -df
+```
+
+---
+
+### git pull 强制拉取并覆盖本地代码
+
+> 使用master分支覆盖本地。使用其它分支，则更改第二条命令的参数。
+
+``` bash
+$ git fetch --all
+$ git reset --hard origin/master 
+$ git pull
+```
+
 -------
 ### 把别人的项目加入到自己的项目中
 - $ 在 github 上新建一个 "HelloWorld" 仓库
