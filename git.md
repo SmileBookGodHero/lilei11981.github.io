@@ -72,6 +72,14 @@ $ git reset --hard origin/master
 $ git pull
 ```
 
+---
+
+### git的命令行输出正确地显示中文文件名
+
+``` bash
+$ git config --global core.quotepath off
+```
+
 -------
 ### 把别人的项目加入到自己的项目中
 - $ 在 github 上新建一个 "HelloWorld" 仓库
