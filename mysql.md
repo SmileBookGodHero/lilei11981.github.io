@@ -1,5 +1,7 @@
 # mysql
 
+## [实用命令](./mysql/mysql实用命令.md)
+
 ## 在Mac环境使用homebrew安装mysql
 
 * **安装mysql**
