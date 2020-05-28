@@ -1,6 +1,6 @@
 # 尚珆：知识为决策赋能
 
-![](/Users/lilei/GitHub/lilei11981/assets/尚珆资本logo.jpg)
+<img align = left src="./assets/尚珆资本logo.jpg" style="zoom:25%;" />
 
 ## 关于我们
 > 尚珆咨询公司开始运作于2018年，目前在上海、深圳设有办公室，团队核心人员来自中金公司、复星香港、中科院旗下研究院及国内外知名私人资产管理公司，拥有丰富的行业研究及投资经验。
