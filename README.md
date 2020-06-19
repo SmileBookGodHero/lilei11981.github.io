@@ -2,7 +2,7 @@
 
 
 
-![尚珆资本logo](./assets/尚珆资本横图.jpg)
+![尚珆资本logo](./assets/尚珆小横版.jpg)
 
 ## 关于我们
 
